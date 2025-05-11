@@ -11,7 +11,7 @@ setFinal,
 id,
 setId
 })=> {
-    
+    console.log(submitButton)
     const answers = quiz.map((nug)=> nug.answer)
    
    
@@ -59,7 +59,7 @@ setId
         className="check-result"
         
         >
-            {submitButton ? <h2>Time's Up</h2> : ''}
+            {!submitButton ? <h2>Time is Up!</h2> : ''}
         <button
         onClick={getResult}
 >View Result</button>

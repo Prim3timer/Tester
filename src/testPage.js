@@ -10,10 +10,8 @@ const TestPage = ({ next,
     attemptTracker,
     handleSubmit,
     handlePrevious,
-    radioCheck,
     handleNext,
     started,
-    setReveal,
     setSubmitButton,
     submitButton,
     clock,
@@ -77,7 +75,7 @@ useEffect(()=> {
       if (started === true) {
         setClock(clock - 1)
       }
-    }, 200)
+    }, 1000)
     if (clock < 1) {
     handleSubmit()
       setClock(0)
