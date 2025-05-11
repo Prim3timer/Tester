@@ -1,7 +1,7 @@
 {
   "name": "frontal",
   "version": "0.1.0",
-  "homepage": "https://prim3timer.github.io/test",
+  "homepage": "https://prim3timer.github.io/Tester",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
