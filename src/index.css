@@ -100,7 +100,7 @@
 
 
 #name-taker {
-  width: 50vw;
+  width: 50%;
   /* background-color: blue; */
   padding: .5rem;
   border: 2px solid black;
@@ -178,6 +178,7 @@ button:active {
 }
 
 #test-canvas h5 {
+  max-width: 600px;
   /* background-color: green; */
   padding-top: .2rem;
   /* height: 100%; */
@@ -187,11 +188,6 @@ button:active {
 }
 
 .interview {
-  /* margin-left: .5rem; */
-  /* font-size: 1.5rem; */
-  /* background-color: blue; */
-  /* height: 15vh; */
-  /* position: absolute; */
   justify-self: center;
   flex-basis: 100%;
   /* text-align: center; */
@@ -204,7 +200,7 @@ button:active {
 } */
 
 #ul-container {
-  width: 65%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -540,7 +536,7 @@ opacity: .85;
 #ul-container {
   display: flex;
   /* background-color: green; */
-  width: 95%;
+  width: 90%;
 
   align-items: center;
   /* justify-content: center; */

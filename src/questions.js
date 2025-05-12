@@ -186,8 +186,8 @@ let quiz = [
     {
       id: 29,
       quiz: "What is the largest cat?",
-      options: ["Cheetah", "Tiger", "Lion", "Tiger"],
-      answer: "Leopared"
+      options: ["Cheetah", "Tiger", "Lion", "Leopard"],
+      answer: "Tiger"
     },
     {
       id: 30,
@@ -200,6 +200,12 @@ let quiz = [
       quiz: "How many planets do we have?",
       options: ["9", "3", "10", "15"],
       answer: "9"
+    },
+    {
+      id: 32,
+      quiz: "What direction does the Nile flow?",
+      options: ["East", "West", "North", "South"],
+      answer: "North"
     },
 
   ];
@@ -214,8 +220,8 @@ let quiz = [
       return arr;
     }
   
-      const quaz = fisherYatesShuffle(quiz)
+      quiz = fisherYatesShuffle(quiz)
   
 
 
-  export default quaz
+  export default quiz
