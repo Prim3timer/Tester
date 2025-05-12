@@ -70,7 +70,7 @@
 
 
 #header, #copy   {
-  font-weight: bold;
+  /* font-weight: bold; */
   padding: .5rem 0;
   position: fixed;
   background-color: plum;
@@ -163,17 +163,24 @@ button:active {
 
 #test-canvas {
   width: 55vw;
-  /* background-color: yellow;  */
-  margin: 0 auto 1rem auto;
+  /* background-color: yellow; */
+  column-gap: .5rem;
   display: flex;
   text-align: left;
+  align-items: flex-start;
 }
-#test-canvas  h5 {
+
+#test-canvas h5 {
+  /* background-color: green; */
+  padding-top: .2rem;
+  /* height: 100%; */
+}
+#test-canvas  h5, p {
   font-size: 1.5rem;
 }
 
 .interview {
-  margin-left: .5rem;
+  /* margin-left: .5rem; */
   /* font-size: 1.5rem; */
   /* background-color: blue; */
   /* height: 15vh; */
@@ -184,6 +191,10 @@ button:active {
   width: 100%;
   margin-bottom: 2rem;
 }
+
+/* #qno {
+  background-color: tan;
+} */
 
 #ul-container {
   width: 65%;

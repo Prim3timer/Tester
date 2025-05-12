@@ -338,18 +338,18 @@ setId={setId}
 
               return  (
            <div id='app'>
-            <p
+            <h3
             id='header'
-            >Auto Tester</p>
+            >Auto Tester</h3>
             {allComponents}
             {/* <i class="fa fa-caret-left" aria-hidden='true'></i> */}
             <h2
             //  style={{marginLeft: '20rem'}}
             >{sendError}</h2>
             {/* <General/> */}
-            <p
+            <span
           id='copy'
-            >&copy; {year} Amalu Productions.</p>
+            >&copy; {year} Amalu Productions.</span>
           </div>
                    
   );
