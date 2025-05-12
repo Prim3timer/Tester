@@ -117,7 +117,7 @@ useEffect(()=>{
                       </article>
                       <article id='test-canvas'>
                
-                      <p id="qno">{exam.id}.</p>
+                      <p id="qno">{index + 1}.</p>
                       <h5 className='interview'>{exam.quiz}</h5>
                       </article>
                       <div id="ul-container">

@@ -18,6 +18,8 @@ const {v4: uuid} = require('uuid')
 
 
 function App() {
+
+  const shuffle = ''
   const [excercises, setExcercises] = useState([])
   const [next, setNext] = useState(0)
   const [nextOption, setNextOption] = useState(0)
@@ -47,7 +49,6 @@ function App() {
 
 
  
-
 
 
 

@@ -1,4 +1,4 @@
-let quiz = [
+let quaz = [
     {
       id: 1,
       quiz: "Which of these adjectives best applies to an elephant?",
@@ -165,5 +165,57 @@ let quiz = [
       options: ["Whales", "Dolphins", "Sharks", "Anaconda"],
       answer: "Sharks",
     },
+    {
+      id: 26,
+      quiz: "Which of these animals is the largest?",
+      options: ["Killer While", "Sperm Whale", "Blue Whale", "Orca Whale"],
+      answer: "Blue Whale"
+    },
+    {
+      id: 27,
+      quiz: "Who killed Dele Giwa?",
+      options: ["IBB", "Abacha", "Obasanjo", "Buhari"],
+      answer: "IBB"
+    },
+    {
+      id: 28,
+      quiz: "How tall was Fidel Castro?",
+      options: ["6 feet", "5 feet", "7 feet", "4 feet"],
+      answer: "6 feet"
+    },
+    {
+      id: 29,
+      quiz: "What is the larges cat?",
+      options: ["Chettah", "Tiger", "Lion", "Tiger"],
+      answer: "Tiger"
+    },
+    {
+      id: 30,
+      quiz: "When did man first orbit earth?",
+      options: ["1900", "1954", "1999", "1961"],
+      answer: "1961"
+    },
+    {
+      id: 31,
+      quiz: "How many planet do we have?",
+      options: ["9", "3", "10", "15"],
+      answer: "9"
+    },
+
   ];
+
+    
+    function fisherYatesShuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      arr.length = 25
+      return arr;
+    }
+  
+      const quiz = fisherYatesShuffle(quaz)
+  
+
+
   export default quiz
