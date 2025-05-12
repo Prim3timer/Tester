@@ -138,8 +138,8 @@ let quiz = [
     {
       id: 21,
       quiz: " How many cloud types are there in the sky?",
-      options: ['7', '1', '4', '9'],
-      answer: '9',
+      options: ['7', '1', '8', '6'],
+      answer: '8',
     },
     {
       id: 22,
@@ -168,26 +168,26 @@ let quiz = [
     {
       id: 26,
       quiz: "Which of these animals is the largest?",
-      options: ["Killer While", "Sperm Whale", "Blue Whale", "Orca Whale"],
+      options: ["Killer Whale", "Sperm Whale", "Blue Whale", "Orca Whale"],
       answer: "Blue Whale"
     },
     {
       id: 27,
       quiz: "Which of these is a nutrient?",
-      options: ["Beef", "fats", "Juice", "Ice Cream"],
+      options: ["Meat", "fat", "Juice", "Fish"],
       answer: "Beer"
     },
     {
       id: 28,
-      quiz: "Who was the first woman to fly accross the Atlantic Ocean?",
+      quiz: "The first woman to fly accros the Atlantic Ocean was...",
       options: ["Maryline Monroe", "Marie Curie", "Amelia Earhart", "Queen Elizabeth II"],
       answer: "Amelia Earhart"
     },
     {
       id: 29,
       quiz: "What is the largest cat?",
-      options: ["Chettah", "Tiger", "Lion", "Tiger"],
-      answer: "Tiger"
+      options: ["Cheetah", "Tiger", "Lion", "Tiger"],
+      answer: "Leopared"
     },
     {
       id: 30,
