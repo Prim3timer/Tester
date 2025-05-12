@@ -166,15 +166,14 @@ button:active {
   margin: 0 auto 1rem auto;
   display: flex;
   text-align: left;
-  /* justify-content: center; */
-
-
-  /* text-align: center */
+}
+#test-canvas  h5 {
+  font-size: 1.5rem;
 }
 
 .interview {
   margin-left: .5rem;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   /* background-color: blue; */
   /* height: 15vh; */
   /* position: absolute; */
