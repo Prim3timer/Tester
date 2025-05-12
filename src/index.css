@@ -100,7 +100,7 @@
 
 
 #name-taker {
-  width: 50%;
+  width: 80%;
   /* background-color: blue; */
   padding: .5rem;
   border: 2px solid black;
@@ -189,9 +189,11 @@ button:active {
 
 .interview {
   justify-self: center;
-  flex-basis: 100%;
+  /* flex-basis: 100%; */
   /* text-align: center; */
-  width: 100%;
+  width: 100vw;
+  height: 20vh;
+  /* background-color: yellowgreen; */
   margin-bottom: 2rem;
 }
 
@@ -516,7 +518,6 @@ opacity: .85;
    /* margin-top: 1rem; */
   }
   #name-taker {
-    width: 100vw;
     /* margin: 0 0 2rem 0; */
     /* font-size: .5rem; */
     width: 80vw;

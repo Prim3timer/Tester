@@ -138,8 +138,8 @@ let quiz = [
     {
       id: 21,
       quiz: " How many cloud types are there in the sky?",
-      options: ['7', '1', '8', '6'],
-      answer: '8',
+      options: ['7', '1', '9', '6'],
+      answer: '9',
     },
     {
       id: 22,
@@ -197,9 +197,9 @@ let quiz = [
     },
     {
       id: 31,
-      quiz: "How many planets do we have?",
-      options: ["9", "3", "10", "15"],
-      answer: "9"
+      quiz: "How many planets are there in our solar system?",
+      options: ["8", "3", "10", "15"],
+      answer: "8"
     },
     {
       id: 32,
