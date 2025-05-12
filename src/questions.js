@@ -173,19 +173,19 @@ let quaz = [
     },
     {
       id: 27,
-      quiz: "Who killed Dele Giwa?",
-      options: ["IBB", "Abacha", "Obasanjo", "Buhari"],
-      answer: "IBB"
+      quiz: "Which of these is a nutrient?",
+      options: ["Beef", "fats", "Juice", "Ice Cream"],
+      answer: "Beer"
     },
     {
       id: 28,
-      quiz: "How tall was Fidel Castro?",
-      options: ["6 feet", "5 feet", "7 feet", "4 feet"],
-      answer: "6 feet"
+      quiz: "Who was the first woman to fly accross the Atlantic Ocean?",
+      options: ["Maryline Monroe", "Marie Curie", "Amelia Earhart", "Queen Elizabeth II"],
+      answer: "Amelia Earhart"
     },
     {
       id: 29,
-      quiz: "What is the larges cat?",
+      quiz: "What is the largest cat?",
       options: ["Chettah", "Tiger", "Lion", "Tiger"],
       answer: "Tiger"
     },
@@ -197,7 +197,7 @@ let quaz = [
     },
     {
       id: 31,
-      quiz: "How many planet do we have?",
+      quiz: "How many planets do we have?",
       options: ["9", "3", "10", "15"],
       answer: "9"
     },
