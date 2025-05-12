@@ -128,7 +128,8 @@ button:active {
   /* background-color: yellow; */
   align-items: center;
   max-width: 800px;
-  min-height: 100vh;
+  margin: 2rem 0
+  /* min-height: 120vh; */
   
 }
 
@@ -310,7 +311,6 @@ font-size: 2rem;
 width: 70vw;
   text-align: left;
   margin:  0 0 0 1rem;
-
   /* background-color: yellowgreen; */
 }
 
@@ -523,6 +523,7 @@ opacity: .85;
   display: flex;
   /* background-color: green; */
   width: 95%;
+
   align-items: center;
   /* justify-content: center; */
 }
@@ -534,6 +535,7 @@ ul {
   list-style-type: none; 
   /* background-color: red; */
   width: 100%;
+
 }
 li {
   font-size: 1.5rem;
