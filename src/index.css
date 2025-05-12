@@ -168,11 +168,13 @@ button:active {
 
 #test-canvas {
   width: 55vw;
-  background-color: yellow;
+  /* background-color: yellow; */
   column-gap: .5rem;
   display: flex;
   text-align: left;
   align-items: flex-start;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 #test-canvas h5 {
