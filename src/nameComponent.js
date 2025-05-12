@@ -12,9 +12,9 @@ error})=> {
     return (
         <section id="name-component">
 
-            <h4 id="instructions"
+            <h3 id="instructions"
            >You have {Math.floor(time/60)} munites{time % 60 ? `, ${time % 60} seconds`: ''}  to complete a 
-            general knowledge test comprising of {quiz.length} questions. Enter your name and click the 'Start' button to begin.</h4>
+            general knowledge test comprising of {quiz.length} questions. Enter your name and click the 'Start' button to begin.</h3>
         <input id="name-taker"
         
         type='text'
