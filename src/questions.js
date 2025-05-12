@@ -1,4 +1,4 @@
-let quaz = [
+let quiz = [
     {
       id: 1,
       quiz: "Which of these adjectives best applies to an elephant?",
@@ -214,8 +214,8 @@ let quaz = [
       return arr;
     }
   
-      const quiz = fisherYatesShuffle(quaz)
+      const quaz = fisherYatesShuffle(quiz)
   
 
 
-  export default quiz
+  export default quaz
