@@ -125,7 +125,7 @@ button:active {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: yellow;   */
+  /* background-color: yellow; */
   align-items: center;
   max-width: 800px;
   min-height: 100vh;
@@ -197,7 +197,7 @@ button:active {
 
  li {
   /* text-align: center; */
-  font-size: 1.8em;
+  font-size: 1.5em;
   /* background-color: yellow; */
  }
   
@@ -534,7 +534,7 @@ ul {
   list-style-type: none; 
 }
 li {
-  font-size: 1.24rem;
+  font-size: 1.5rem;
 }
 
 #test-canvas {
