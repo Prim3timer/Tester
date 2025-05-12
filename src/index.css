@@ -36,7 +36,7 @@
   flex-direction: column;
   max-width: 550px;
   margin: 0 auto;
-  text-align: center;
+  /* text-align: center; */
     min-height: 100vh;
   overflow-y: auto;
   justify-content: center;
@@ -99,7 +99,8 @@
 
 
 #name-taker {
-  width: 70vw;
+  width: 50vw;
+  /* background-color: blue; */
   padding: .5rem;
   border: 2px solid black;
   border-radius: 5px;
@@ -166,7 +167,7 @@ button:active {
 
 #test-canvas {
   width: 55vw;
-  /* background-color: yellow; */
+  background-color: yellow;
   column-gap: .5rem;
   display: flex;
   text-align: left;
