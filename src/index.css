@@ -9,10 +9,10 @@ body {
 
 
 #root {
-  height: 100vh;
+  min-height: 100vh;
   flex-flow: nowrap;
   /* font-size: 1.5rem; */
-  background-image: linear-gradient(white, steelblue);
+  background-image: linear-gradient(white, lightsteelblue);
 }
 
 #app {
