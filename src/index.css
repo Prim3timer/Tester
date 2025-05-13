@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   flex-flow: nowrap;
   /* font-size: 1.5rem; */
-  background-image: linear-gradient(white, lightsteelblue);
+  background-image: linear-gradient(#fff, lightsteelblue);
 }
 
 #app {
@@ -196,7 +196,7 @@ body {
   justify-self: center;
   /* flex-basis: 100%; */
   /* text-align: center; */
-  color: darkslateblue;
+  color: darkorchid;
   width: 100vw;
   height: 20vh;
   /* background-color: yellowgreen; */
