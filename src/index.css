@@ -317,7 +317,7 @@ li {
   width: 15rem;
   white-space: nowrap;
   font-size: 2rem;
-  /* margin-top: 50vh; */
+  padding: .5rem;
 border-radius: 5px;
 }
 
@@ -506,13 +506,11 @@ opacity: .85;
   }
 
   .check-result button {
-    width: 70%;
+    width: 70vw;
   }
 
   #searcher {
             width: '25%';
-            /* background-color: blue; */
-            
   }
 
 
