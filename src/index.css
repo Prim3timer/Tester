@@ -62,13 +62,12 @@
 }
 #clock {
 
-  margin: 0 1rem;
-  height: 2rem;
+      font-size: 1.5rem;
     color: white;
     /* border: 2px solid white; */
     align-items: center;
     justify-content: center;
-    padding: .5rem;
+    /* padding: .5rem; */
     width: 4rem;
     /* border-radius: 5px; */
     /* background-color: red; */
@@ -87,6 +86,8 @@
 
   .admin {
     height: 2.5rem;
+    padding: .5rem;
+    flex: 0 0 15%;
   }
   
   
@@ -103,18 +104,21 @@
   }
   #header {
     padding: .5rem;
+
     column-gap: 30%;
     display: flex;
     border-top: white;
     border-left: #0F172A;
     border-right: #0F172A;
     align-items: center;
+    /* justify-content: center; */
     top: 0;
     
   }
 
   #title {
     white-space: nowrap;
+        font-size: 2rem;
   }
   
   #copy {
@@ -488,8 +492,22 @@ opacity: .85;
 
     #header {
     padding: 1rem;
-    column-gap: 10%;
-   
+    /* fon */
+    column-gap: 15%;
+  }
+
+      #clock {
+            font-size: 1.5rem;
+      }
+  .admin {
+    flex: 0 0 25%;
+    /* background-color: red; */
+    font-size: .8rem;
+  }
+
+    #title {
+  
+        font-size: 1.5rem;
   }
 
   .check-result button {
@@ -662,11 +680,6 @@ section {
      }
 
      #result-table {
-        /* justify-content: center;
-      
-        align-items: center; */
-        /* padding: 2rem; */
         row-gap: 2rem;
-        /* margin: 1rem 0 0 1rem; */
      }
 }  
