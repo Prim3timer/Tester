@@ -65,7 +65,7 @@ console.log(score)
                 'white' : 'lightskyblue'}}>
         <td
         style={{width: '10%'}}
-        >{prop.q_no}.</td>
+        >{index + 1}.</td>
          {prop.attempt === prop.correctAnswer ? <td style={{color: 'green',
             fontSize: '1.2rem'
         }}>
