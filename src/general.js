@@ -208,7 +208,7 @@ id="trans-verify-section"
         margin: '.5rem auto',
       //   display: 'flex',
     }}
-    >Are you sure you want to delete "{reportCard.candidate}" ?</h3>
+    >Delete "{reportCard.candidate}'s result" ?</h3>
         <article
      className="general-warning"
         ><button
@@ -221,7 +221,7 @@ id="trans-verify-section"
        >Yes</button></article></div> : taskComplete ? <div
     className="general-alert"
         >
-          <h4>{reportCard.candidate} deleted</h4>
+          <h4>{reportCard.candidate}'s result' deleted</h4>
             </div> : ''}
 
 </section>
@@ -263,7 +263,7 @@ id="trans-verify-section"
        />
        </form>
           <h3
-          style={{color: 'darkslateblue'}}
+          style={{color: 'white'}}
           >CANDIDATE RESULTS ({results.length})</h3>
           {/* { !results  ? <h3>Loading...</h3> : <Result/>}<br/> */}
 
