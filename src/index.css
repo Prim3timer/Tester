@@ -234,7 +234,8 @@
   /* text-align: center; */
   color:#0F172A;
   width: 100vw;
-  height: 20vh;
+  min-height: 4rem;
+  /* min-height: 20vh; */
   /* background-color: yellowgreen; */
   margin-bottom: 2rem;
 }
