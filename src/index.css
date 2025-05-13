@@ -203,9 +203,9 @@ body {
   margin-bottom: 2rem;
 }
 
-/* #qno {
-  background-color: tan;
-} */
+#qno {
+  color: rgb(15, 74, 168);
+}
 
 #ul-container {
   width: 60%;
