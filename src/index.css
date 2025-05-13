@@ -80,8 +80,9 @@ body {
     /* font-weight: bold; */
     padding: .5rem 0;
     position: fixed;
-    background-color: mediumpurple;
+    background-color: #0F172A;
     width: 100%;
+    color: white;
     /* font-size: 1rem; */
     text-align: center; 
   }
@@ -196,7 +197,7 @@ body {
   justify-self: center;
   /* flex-basis: 100%; */
   /* text-align: center; */
-  color: rgb(15, 74, 168);
+  color:#0F172A;
   width: 100vw;
   height: 20vh;
   /* background-color: yellowgreen; */
