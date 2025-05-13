@@ -196,7 +196,7 @@ body {
   justify-self: center;
   /* flex-basis: 100%; */
   /* text-align: center; */
-  color: darkorchid;
+  color: rgb(15, 74, 168);
   width: 100vw;
   height: 20vh;
   /* background-color: yellowgreen; */
@@ -247,7 +247,12 @@ body {
     }
 
 #submitting {
-  margin-top: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+
+  
+  /* margin-top: 50vh; */
 }
 
 .check-result {
@@ -274,7 +279,10 @@ body {
   /* margin-top: 50vh; */
 }
 #getting {
-  margin-top: 50vh;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+
 }
 #continuity {
   font-size: 1.5rem;
