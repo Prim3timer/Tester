@@ -96,7 +96,7 @@
   }
   #header {
     column-gap: 25%;
-    padding: .5rem;
+    padding: .2rem .5;
     display: flex;
     border-top: white;
     border-left: #0F172A;
