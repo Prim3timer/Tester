@@ -13,6 +13,7 @@
   /* font-size: 1.5rem; */
   /* background-image: linear-gradient(#fff, lightsteelblue); */
   background-color: #0F172A;
+  /* color: white */
 }
 
 #app {
@@ -51,15 +52,7 @@
   
 }
 
-.clock-container {
-  margin: 1rem  0 .5rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* background-color: aqua; */
-  /* min-height: 20rem;  */
-  /* width: 100%; */
-}
+
 #clock {
 
       font-size: 1.5rem;
@@ -69,8 +62,6 @@
     justify-content: center;
     /* padding: .5rem; */
     width: 4rem;
-    /* border-radius: 5px; */
-    /* background-color: red; */
   }
   
   #winding-clock {
@@ -88,6 +79,7 @@
     height: 2.5rem;
     padding: .5rem;
     flex: 0 0 15%;
+
   }
   
   
@@ -103,15 +95,14 @@
     width: 96vw;
   }
   #header {
-    padding: .5rem;
-
     column-gap: 25%;
+    padding: .5rem;
     display: flex;
     border-top: white;
     border-left: #0F172A;
     border-right: #0F172A;
     align-items: center;
-    /* justify-content: center; */
+    /* justify-content: space-evenly; */
     top: 0;
     
   }
@@ -223,6 +214,7 @@
 
 #name {
   color: white;
+  
 }
 
 #test-canvas h5 {
@@ -680,6 +672,6 @@ section {
      }
 
      #result-table {
-        row-gap: 2rem;
+        /* row-gap: 2rem; */
      }
 }  
