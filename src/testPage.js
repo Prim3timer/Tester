@@ -75,7 +75,7 @@ useEffect(()=> {
       if (started === true) {
         setClock(clock - 1)
       }
-    }, 1000)
+    }, 100)
     if (clock < 1) {
     handleSubmit()
       setClock(0)
@@ -98,22 +98,12 @@ useEffect(()=>{
                     
                       >
                        
-                      <h5 id="clock"
                      
-                  >{clock < 10 ? `:0${clock % 60}` : clock < 60 ? `:${clock % 60}`  : clock % 60 >= 10 ? `${Math.floor(clock / 60)}:${clock % 60}` : clock < 10 ? 0`${clock % 60}`:   `${Math.floor(clock / 60)}:0${clock % 60}`
-                  }</h5>
 
                   <h3 id="time-up"
                       >{clock === 0 ? `Time's Up` : ''}
                       </h3>
-                      <button
-                         style={{
-                          display: candidate === 'Dike' ? 'block' : 'none',
-                          margin: '1rem',
-                          padding: '.5rem'
-                         }}
-                    onClick={showResults}
-                    >View Results</button>
+                    
                       </article>
                       <article id='test-canvas'>
                

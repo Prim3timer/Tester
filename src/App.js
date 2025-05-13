@@ -325,7 +325,7 @@ setId={setId}
     setTruth={setTruth}
     arrival={arrival}
  
-  /> : isAltLoading ? <h2 id='getting'>Gettting Result</h2> : present ?
+  /> : isAltLoading ? <h2 id='getting'>Gettting Result...</h2> : present ?
   <ResultSheet 
     showSheet={showSheet}
     final={final}
@@ -339,9 +339,18 @@ setId={setId}
 
               return  (
            <div id='app'>
-            <h3
+            <div
             id='header'
-            >Auto Tester</h3>
+            ><h3 id='title'>Auto Tester</h3>
+            {started && <h5 id={clock < 20 ? 'winding-clock' : 'clock'}
+                     
+                  >{clock < 10 ? `:0${clock % 60}` : clock < 60 ? `:${clock % 60}`  : clock % 60 >= 10 ? `${Math.floor(clock / 60)}:${clock % 60}` : clock < 10 ? 0`${clock % 60}`:   `${Math.floor(clock / 60)}:0${clock % 60}`
+                  }</h5>}
+                   { candidate === 'Dike' && started ? <button
+                   className='admin'
+                    onClick={showResults}
+                    >View Results</button> : ''}
+            </div>
             {allComponents}
             {/* <i class="fa fa-caret-left" aria-hidden='true'></i> */}
             <h2
