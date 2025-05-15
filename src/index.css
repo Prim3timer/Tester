@@ -96,12 +96,15 @@
   }
   #header {
     column-gap: 25%;
-    padding: .2rem .5;
+    padding: 2rem .5;
+    /* height: 12rem; */
+    height: 2.6rem;
     display: flex;
     border-top: white;
     border-left: #0F172A;
     border-right: #0F172A;
     align-items: center;
+    /* background-color: white; */
     /* justify-content: space-evenly; */
     top: 0;
     
