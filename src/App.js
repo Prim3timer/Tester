@@ -325,7 +325,7 @@ setId={setId}
     setTruth={setTruth}
     arrival={arrival}
  
-  /> : isAltLoading ? <h2 id='getting'>Gettting Result...</h2> : present ?
+  /> : isAltLoading ? <h2 id='getting'>Getting Result...</h2> : present ?
   <ResultSheet 
     showSheet={showSheet}
     final={final}
