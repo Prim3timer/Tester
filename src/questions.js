@@ -167,14 +167,14 @@ let quiz = [
     },
     {
       id: 26,
-      quiz: "Which of these animals is the largest?",
+      quiz: "Which of these whales is the largest?",
       options: ["Killer Whale", "Sperm Whale", "Blue Whale", "Orca Whale"],
       answer: "Blue Whale"
     },
     {
       id: 27,
       quiz: "Which of these is a nutrient?",
-      options: ["Meat", "fat", "Juice", "Fish"],
+      options: ["Meat", "Fat", "Juice", "Fish"],
       answer: "Beer"
     },
     {
@@ -216,7 +216,7 @@ let quiz = [
         const j = Math.floor(Math.random() * (i + 1));
         [arr[i], arr[j]] = [arr[j], arr[i]];
       }
-      arr.length = 25
+      arr.length = 20
       return arr;
     }
   

@@ -94,7 +94,8 @@ margin: .5rem 0;
     /* font-size: 1rem; */
     text-align: center; 
     border: 2px solid white;
-    width: 96vw;
+      width: 98vw;
+   
   }
   #header {
     column-gap: 25%;
@@ -102,7 +103,8 @@ margin: .5rem 0;
     /* height: 12rem; */
     height: 2.6rem;
     display: flex;
-    border-top: white;
+    border-top: white; 
+ 
     border-left: #0F172A;
     border-right: #0F172A;
     align-items: center;
