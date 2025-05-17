@@ -6,7 +6,7 @@
 
 
 #app {
-    font: 1.5rem "Nunito", san-serif;
+    font: 2rem "Nunito", san-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -26,8 +26,10 @@
     /* get the content to fill the screen */
     align-content:  normal;
    justify-content: center;
-  
+   
 }
+
+
 
 #header, #copy {
     position: sticky;
@@ -38,15 +40,26 @@
 
 #header{
     display: flex;
-    column-gap: 25%;
-    height:2em
+    column-gap: 10%;
+    height:2em;
+ justify-content: flex-start;
+    align-items: center;
    /* flex-direction: column;   */
 }
 #header > * {
+    /* background-color: pink; */
     flex: 0 1 25%;
 }
-#header:last-child {
-    padding: 2rem;
+
+.admin {
+        white-space:    no-wrap;
+}
+
+
+#copy {
+    bottom: 0;
+    padding: 0.5rem;
+    
 }
 #test-canvas {
    display: flex;
@@ -56,18 +69,12 @@
 }
 
 .interview {
-    /* background-color: pink; */
-    /* width: 70%; */
+   font-size: inherit;
 }
 
-#test-canvas:last-child{
-    flex: 0 0 70%;
-    background-color: blue;
-}
 
-#copy {
-    bottom: 0
-}
+
+
 #ul-container {
     /* background-color: blue; */
     display: flex;
@@ -92,7 +99,7 @@ ul {
     justify-self: center;
     height: 3rem;
     /* width: 100vw; */
-    background-color: yellow
+    /* background-color: yellow */
     
 }
 .controls > * {

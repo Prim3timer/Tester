@@ -324,7 +324,7 @@ setId={setId}
             {/* <General/> */}
             <span
           id='copy'
-            >&copy; {year} Amalu Productions.</span>
+            ><small>&copy; {year} Amalu Productions.</small></span>
           </div>
                    
   );
