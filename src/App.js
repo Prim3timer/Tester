@@ -1,6 +1,6 @@
 
 // import logo from './logo.svg'
-import css from './index.css'
+// import css from './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import React, { useState, useEffect, useRef } from "react"
 import axios from 'axios'
@@ -42,7 +42,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [isAltLoading, setIsAltLoading] = useState(false)
   const [submitButton, setSubmitButton] = useState(false)
-  const [clock, setClock]= useState(quiz.length * 10)
+  const [clock, setClock]= useState(quiz.length * 1000)
   const [revisit, setRevisit]= useState(false)
   const [id, setId] = useState('')
   const [allResults, setAllResults] = useState(false)
@@ -95,7 +95,8 @@ const inputRef3 = useRef('')
                 console.log(mark)
               
              try {             
-                const response = await axios.post('https://mawuhi-back.onrender.com/results', result)
+                // const response = await axios.post('https://mawuhi-back.onrender.com/results', result)
+                const response = []
                 // const response = await axios.post(`http://localhost:3500/results`, result)  
 
                 // try {
@@ -123,42 +124,6 @@ const inputRef3 = useRef('')
              
             }
 
-            const getForeign = async () => {
-              const chekered = await axios.get('https://dosal.onrender.com/results')
-              console.log(chekered)
-              if (chekered){
-                console.log(chekered.data.questions)
-                const oneChekered = chekered.data.questions.find((item)=> item._id === '66268fe13befb5723ec2a88a')
-                console.log(oneChekered)
-
-                console.log(oneChekered.q_no.length)
-
-                for (let i = 0; i < oneChekered.q_no.length; i++){
-                  if (oneChekered.attempt[i] === oneChekered.answer[i])   mark += 100 / quiz.length
-                 }
-  
-                 
-                 const result = {
-                   id: uuid(),
-                   candidate: oneChekered.candidate,
-                   q_no: oneChekered.q_no,
-                   questions: oneChekered.questions,
-                   attempt: oneChekered.attempt,
-                   answer: oneChekered.answer, 
-                   date: oneChekered.date,
-                   mark: mark
-                  }
-                  console.log(result)
-
-                  const response = await axios.post('https://mawuhi-back.onrender.com/results', result)
-              }
-
-          
-              
-            
-
-              
-            }
                
             const attemptTracker = (e, index)=> {
               let optionVal = e.target.value

@@ -22,35 +22,27 @@ const TestPage = ({ next,
 
  
     let showSubmit = submitButton ? <section
-    style={{
-      display: 'flex',
-      flexDirection: 'row',
-      columnGap: '2rem',
-     justifyContent: 'center',
-    }}
+    className="controls"
+   
     >
         <button 
         id= 'previous'
         onClick={()=> handlePrevious(next)}
-        style={{width: '6rem'}}
+   
         >
        <FontAwesomeIcon icon={faArrowLeft}/>
         </button>
         <button 
         id='next'
       onClick={()=> handleNext(next)}
-      style={{width: '6rem'}}
+
       >
           <FontAwesomeIcon icon={faArrowRight}/>
       </button>
         <button onClick={(e)=> handleSubmit(e)}
         id="submit"
         >Submit</button></section> : <section
-        style={{
-          display: 'flex',
-          flexDirection: 'row',
-         justifyContent: 'center'
-        }}
+      className="controls"
         >
           <button 
         id= 'previous'

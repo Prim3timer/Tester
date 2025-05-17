@@ -21,7 +21,7 @@
 #app {
   /* width: 100vw;  */
   /* min-height: 100vh;  */
-  flex-grow: 1;
+  /* flex-grow: 1; */
   text-align: center;
   padding: 1rem 0;
   /* background: radial-gradient(circle at 70%, rgb(92, 144, 88), rgb(51, 221, 139));   */
@@ -52,6 +52,18 @@ margin: .5rem 0;
   
   /* background-color: aqua; */
   
+}
+.controls {
+
+      display: flex;
+      flex-direction: row;
+      column-gap: '2rem';
+     justify-content: center;
+
+}
+
+.controls button {
+  width: 6rem;
 }
 
 
@@ -124,15 +136,11 @@ margin: .5rem 0;
     border-left: #0F172A;
     border-right: #0F172A;
     border-bottom: #0F172A;
-  }
-  
-  #copy {
     bottom: 0;
-    
-    
     margin-bottom: 0;
   }
   
+
   #instructions {
     margin: 2rem 0;
   color: white;

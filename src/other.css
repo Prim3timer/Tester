@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#app {
+    font: 1.5rem "Nunito", san-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#name-component, .check-result, #test-page, .check-result, ul {
+    display: grid;
+    place-content: center
+}
+
+#name-component, #test-page, .check-result{
+    flex-grow: 1
+}
+
+
+#test-page {
+    /* get the content to fill the screen */
+    align-content:  normal;
+   justify-content: center;
+  
+}
+
+#header, #copy {
+    position: sticky;
+    background-color: #1e293b;
+   color: whitesmoke;
+   text-align: center;
+}
+
+#header{
+    display: flex;
+    column-gap: 25%;
+    height:2em
+   /* flex-direction: column;   */
+}
+#header > * {
+    flex: 0 1 25%;
+}
+#header:last-child {
+    padding: 2rem;
+}
+#test-canvas {
+   display: flex;
+   flex: 1 1 100%;
+   column-gap: .5rem;
+    /* background-color: red; */
+}
+
+.interview {
+    /* background-color: pink; */
+    /* width: 70%; */
+}
+
+#test-canvas:last-child{
+    flex: 0 0 70%;
+    background-color: blue;
+}
+
+#copy {
+    bottom: 0
+}
+#ul-container {
+    /* background-color: blue; */
+    display: flex;
+    /* text-align: center; */
+    /* width: 60%; */
+    justify-content: center;
+}
+
+ul {
+       align-content:  normal;
+    flex-grow: 1;
+   list-style-type: none;
+   width: 70%;
+   /* background-color: yellow */
+}
+
+.controls{
+    display: flex;
+    column-gap: 2rem;
+    /* background-color: orange; */
+    text-align: center;
+    justify-self: center;
+    height: 3rem;
+    /* width: 100vw; */
+    background-color: yellow
+    
+}
+.controls > * {
+  border-color: cornflowerblue;
+  background-color: cornflowerblue;
+    width: 6rem;
+}
+
+@media screen and (max-width: 450){
+    
+}
+
