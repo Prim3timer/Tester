@@ -225,8 +225,8 @@ button {
    grid-template-rows: 2rem;
    /* flex: 1 1 100%; */
    column-gap: .5rem;
-   margin-left: 2rem;
-   
+   /* margin-left: 2rem; */
+   width: 95%;
    /* background-color: yellow; */
 }
 
@@ -251,7 +251,7 @@ width: 90%;
 @media screen and (min-width: 501px) {
   #test-page {
     /* width: 90%; */
-    align-self: center;
+    /* align-self: center; */
     /* background-color: pink; */
     
   }
