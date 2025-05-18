@@ -180,14 +180,20 @@ ul {
 
   button {
     color: inherit;
-    background-color: cornflowerblue;
-    border-color: cornflowerblue;
+    background-color: ghostwhite;
+    border-color: ghostwhite;
+    color: #1e293b;
     width: 9rem;
     /* font-size: 4rem; */
 
-    border-radius: 5px;
+    border-radius: 10px;
     /* box-shadow: 0.2em 0.3em 0.35em gray; */
     height: 3rem;
+  }
+
+  .controls button, .admin .check-result button {
+    border-radius: 5px;
+ 
   }
   
   button:active {
