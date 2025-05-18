@@ -47,11 +47,13 @@
   
   #header{
     border-bottom: 2px solid whitesmoke;
-    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    /* display: flex; */
     column-gap: 25%;
     height: 2.5rem;
     justify-content: flex-start;
     align-items: center;
+    align-content: center;
     padding: 0 .5rem;
     
     /* flex-direction: column;   */
@@ -66,14 +68,14 @@
   #clock {
     /* background-color: pink; */
     
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     color: white;
-    /* border: 2px solid white; */
+    border: 1px solid white;
     align-items: center;
-    justify-content: center;
-    flex: 0 0 5%;
-    /* padding: .5rem; */
-    /* width: 4rem; */
+    justify-content: start;
+    /* flex: 0 0 5%; */
+    padding: .2rem;
+    width: 4rem;
   }
   
   .admin {
@@ -91,7 +93,7 @@
     align-items: center;
     justify-content: center;
     padding: .5rem;
-    width: 4rem;
+    /* width: 4rem; */
   }
   
   
@@ -177,11 +179,12 @@ ul {
 
 
   button {
+    color: inherit;
     background-color: cornflowerblue;
     border-color: cornflowerblue;
     width: 9rem;
     /* font-size: 4rem; */
-    color: rgb(36, 17, 106);
+
     border-radius: 5px;
     /* box-shadow: 0.2em 0.3em 0.35em gray; */
     height: 3rem;
@@ -230,8 +233,10 @@ button {
   width: 90%;
  }
   #header {
-    column-gap: 15%;
+    column-gap: 5%;
   }
+
+  
 
   /* .controls{
 width: 90%;
@@ -252,6 +257,9 @@ width: 90%;
     column-gap: 1rem;
     width: 70%;
     justify-content:flex-start;
+  }
+  #header {
+    column-gap: 5%;
   }
 }
 @media screen and (min-width: 816px) {
