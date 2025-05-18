@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 
-#name-component, .check-result, #test-page, .check-result, ul {
+#name-component, .check-result, #test-page, .check-result, #header, #copy, ul {
     display: grid;
     place-content: center
 }
@@ -28,6 +28,7 @@
     margin:  0 .5rem;
     align-content:  normal;
    justify-content: normal;
+   /* background-color: pink; */
    
 }
 
@@ -38,16 +39,18 @@
     background-color: #1e293b;
    color: whitesmoke;
    text-align: center;
+   justify-self: center;
 }
 
 #header{
     display: flex;
     column-gap: 20%;
-    height:1.8rem;
+    height:2rem;
  justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     align-content: center;
-    padding: 1.5rem 0;
+    padding: .1rem .5rem;
+
    /* flex-direction: column;   */
 }
 #header > * {
@@ -60,7 +63,7 @@
 }
 
 .admin {
-        white-space:    no-wrap;
+        white-space:    nowrap;
 }
 
 
@@ -98,7 +101,8 @@
 #copy {
     font-size: 15px;
     bottom: 0;
-    padding: 0.5rem;
+    padding: .5rem;
+
     
 }
 #test-canvas {
@@ -157,14 +161,16 @@ ul {
 
 .controls{
     display: flex;
-    column-gap: 2rem;
+    column-gap: .5rem;
     row-gap: 1rem;
     flex-wrap: wrap;
     /* background-color: orange; */
-    text-align: center;
+    /* text-align: center; */
     justify-self: center;
-    justify-content: center;
-    height: 3rem;
+    align-content: center;
+    justify-content: flex-start;
+    /* height: 3rem; */
+    width: 70%;
  
     
 }
@@ -179,6 +185,7 @@ ul {
     color: rgb(36, 17, 106);
     border-radius: 5px;
     box-shadow: 0.2em 0.3em 0.35em gray;
+    height: 3rem;
   }
   
   button:active {
@@ -195,6 +202,11 @@ ul {
         /* background-color: yellow; */
         width: 100%;
     }
+
+    /* #header, #copy {
+   width: 110%;
+} */
+
 
 button {
   height: 3rem;
@@ -225,9 +237,17 @@ button {
     width: 100%;
    }
 
-  
-  }  
-  
+  .controls{
+width: 90%;
+  align-content: center;
+    justify-content: center;
+    justify-self: center;
+    column-gap: 2rem;
+    
+ 
+    
+}
+}
 @media screen and (max-width: 450px) {
 
 }
