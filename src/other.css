@@ -24,9 +24,10 @@
 
 #test-page {
     /* get the content to fill the screen */
+    /* width: 70%; */
     margin:  0 .5rem;
     align-content:  normal;
-   justify-content: center;
+   justify-content: normal;
    
 }
 
@@ -99,36 +100,44 @@
 }
 #test-canvas {
    display: grid;
+   width: 60%;
+   justify-content: start;
+   /* text-align: left; */
+   align-content: start;
+   justify-self: center;
    grid-template-columns: repeat(13, 1fr);
    /* to keep the position of every element under the test-canvas stationary */
-   grid-template-rows: 1.5rem;
-   /* flex: 1 1 100%; */
-   column-gap: .5rem;
-   /* height: 10rem; */
-   /* background-color: red; */
+   grid-template-rows: 3.5rem;
 }
 
 #qno {
     grid-column: 1 / 2;
+    font-weight: bold;
 }
 
 .interview {
     grid-column: 2 / 13;
    font-size: inherit;
+   font-weight: bold;
 }
 
 
 
 
 #ul-container {
-    /* background-color: blue; */
+    
     display: flex;
+    justify-self: center;
     /* text-align: center; */
-    /* width: 60%; */
-    justify-content: center;
+    width: 60%;
+    /* background-color: blue; */
 }
 
 ul {
+    justify-content: flex-start;
+    align-content: flex-start;
+    /* background-color: blue; */
+    /* justify-content: flex-start; */
        align-content:  normal;
     flex-grow: 1;
    list-style-type: none;
@@ -144,21 +153,67 @@ ul {
 .controls{
     display: flex;
     column-gap: 2rem;
+    row-gap: 1rem;
+    flex-wrap: wrap;
     /* background-color: orange; */
     text-align: center;
     justify-self: center;
+    justify-content: center;
     height: 3rem;
     /* width: 100vw; */
     /* background-color: yellow */
     
 }
-.controls > * {
-  border-color: cornflowerblue;
-  background-color: cornflowerblue;
-    width: 6rem;
+
+
+
+  button {
+    background-color: cornflowerblue;
+    border-color: cornflowerblue;
+    width: 9rem;
+    /* font-size: 4rem; */
+    color: rgb(36, 17, 106);
+    border-radius: 5px;
+    box-shadow: 0.2em 0.3em 0.35em gray;
+  }
+  
+  button:active {
+    box-shadow: 0em 0em 0em gray;
+    transition-property: box-shadow scale;
+    transform: scale(0.95, 0.95);
+    box-shadow: 0em 0e 0em;
+    transition-duration: 0.1s;
+  }
+  
+
+@media screen and (max-width: 450px) {
+    #ul-container {
+        /* background-color: yellow; */
+        width: 100%;
+    }
+
+   ul {
+
 }
 
-@media screen and (max-width: 450){
-    
+
+#test-canvas {
+
+   /* to keep the position of every element under the test-canvas stationary */
+   grid-template-rows: 2rem;
+   /* flex: 1 1 100%; */
+   column-gap: .5rem;
+   margin: 0 2rem;
+   
 }
+
+#test-page {
+       /* background-color: yellow; */
+    width: 100%;
+   }
+   #test-canvas {
+    width: 100%;
+   }
+}  
+
 

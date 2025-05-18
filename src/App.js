@@ -42,7 +42,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(false)
   const [isAltLoading, setIsAltLoading] = useState(false)
   const [submitButton, setSubmitButton] = useState(false)
-  const [clock, setClock]= useState(quiz.length * 1000)
+  const [clock, setClock]= useState(quiz.length * 10)
   const [revisit, setRevisit]= useState(false)
   const [id, setId] = useState('')
   const [allResults, setAllResults] = useState(false)
@@ -95,8 +95,8 @@ const inputRef3 = useRef('')
                 console.log(mark)
               
              try {             
-                // const response = await axios.post('https://mawuhi-back.onrender.com/results', result)
-                const response = []
+                const response = await axios.post('https://mawuhi-back.onrender.com/results', result)
+                // const response = []
                 // const response = await axios.post(`http://localhost:3500/results`, result)  
 
                 // try {
