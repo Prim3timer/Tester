@@ -101,7 +101,7 @@
    display: grid;
    grid-template-columns: repeat(13, 1fr);
    /* to keep the position of every element under the test-canvas stationary */
-   grid-template-rows: 1rem;
+   grid-template-rows: 1.5rem;
    /* flex: 1 1 100%; */
    column-gap: .5rem;
    /* height: 10rem; */
