@@ -24,6 +24,7 @@
 
 #test-page {
     /* get the content to fill the screen */
+    margin:  0 .5rem;
     align-content:  normal;
    justify-content: center;
    
@@ -40,20 +41,54 @@
 
 #header{
     display: flex;
-    column-gap: 10%;
+    column-gap: 20%;
     height:2em;
  justify-content: flex-start;
     align-items: center;
    /* flex-direction: column;   */
 }
 #header > * {
-    /* background-color: pink; */
-    flex: 0 1 25%;
+    /* border: 2px solid whitesmoke; */
+    /* flex: 0 1 25%; */
+}
+#title {
+    flex: 0 0 15%;
 }
 
 .admin {
         white-space:    no-wrap;
 }
+
+
+#clock {
+
+      font-size: 1.5rem;
+    color: white;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 5%;
+    /* padding: .5rem; */
+    /* width: 4rem; */
+  }
+
+    .admin {
+   padding: .5rem;
+    flex: 0 0 35%;
+
+  }
+  
+  #winding-clock {
+      flex: 0 0 5%;
+    margin: 0 1rem;
+  height: 2rem;
+      /* display: flex; */
+    color: tomato;
+      align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    width: 4rem;
+  }
 
 
 #copy {
