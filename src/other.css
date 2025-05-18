@@ -46,7 +46,7 @@
   }
   
   #header{
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
     grid-template-columns: repeat(3, 1fr);
     /* display: flex; */
     column-gap: 25%;
@@ -99,7 +99,7 @@
   
   #copy {
     font-size: 15px;
-    border-top: 2px solid whitesmoke;
+    border-top: 1px solid whitesmoke;
     bottom: 0;
     padding: .5rem;
 
