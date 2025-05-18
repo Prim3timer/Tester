@@ -228,11 +228,12 @@ button {
    /* margin-left: 2rem; */
    width: 95%;
    /* background-color: yellow; */
-}
-
-#test-page {
-    width: 100%;
-   }
+  }
+  
+ #ul-container {
+  /* background-color: yellow; */
+  width: 90%;
+ }
   #header {
     column-gap: 15%;
   }
@@ -267,6 +268,10 @@ width: 90%;
     align-self: center;
     
   }
+  .controls {
+    column-gap: 2rem;
+  }
+}
   @media screen and (min-width: 1090px) {
     #test-page {
       width: 60%;
@@ -274,7 +279,10 @@ width: 90%;
     align-self: center;
  
   }
+  .controls {
+    column-gap: 10rem;
+  }
 }
-}
+
 
 
