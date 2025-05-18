@@ -98,13 +98,22 @@
     
 }
 #test-canvas {
-   display: flex;
-   flex: 1 1 100%;
+   display: grid;
+   grid-template-columns: repeat(13, 1fr);
+   /* to keep the position of every element under the test-canvas stationary */
+   grid-template-rows: 1rem;
+   /* flex: 1 1 100%; */
    column-gap: .5rem;
-    /* background-color: red; */
+   /* height: 10rem; */
+   /* background-color: red; */
+}
+
+#qno {
+    grid-column: 1 / 2;
 }
 
 .interview {
+    grid-column: 2 / 12;
    font-size: inherit;
 }
 
