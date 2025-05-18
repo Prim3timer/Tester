@@ -6,7 +6,7 @@
 
 
 #app {
-    font: 2rem "Nunito", san-serif;
+    font: 1.5rem "Nunito", san-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -92,8 +92,8 @@ ul {
    /* background-color: yellow */
 }
  li input {
-    width: 1.5rem; 
-    height: 1.5rem; 
+    width: 1.2rem; 
+    height: 1.2rem; 
     margin-right: 1rem;
   }
 
