@@ -47,7 +47,7 @@
  justify-content: flex-start;
     align-items: center;
     align-content: center;
-    padding: .5rem 0;
+    padding: 1.5rem 0;
    /* flex-direction: column;   */
 }
 #header > * {
@@ -165,8 +165,7 @@ ul {
     justify-self: center;
     justify-content: center;
     height: 3rem;
-    /* width: 100vw; */
-    /* background-color: yellow */
+ 
     
 }
 
@@ -197,12 +196,15 @@ ul {
         width: 100%;
     }
 
-
+button {
+  height: 3rem;
+}
   
 
    ul {
 
 }
+
 
 
 #test-canvas {
@@ -222,8 +224,10 @@ ul {
    #test-canvas {
     width: 100%;
    }
-}  
 
+  
+  }  
+  
 @media screen and (max-width: 450px) {
 
 }
