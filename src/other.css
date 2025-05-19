@@ -46,6 +46,7 @@
   }
   
   #header{
+    position: sticky;
     border-bottom: 1px solid whitesmoke;
     grid-template-columns: repeat(3, 1fr);
     /* display: flex; */
@@ -198,7 +199,7 @@ td, th {
 
    #name {
     /* background-color: pink; */
-    margin-left: 2rem;
+    margin: 3rem 0 0 2rem;
     padding-top: 1rem;
    }
 
