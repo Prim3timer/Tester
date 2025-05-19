@@ -38,14 +38,29 @@
   #name-component div {
      justify-self: center;
   display: grid;
-  min-height: 80vh;
+ /* row-gap: 1rem; */
   min-width: 90vw;
   /* place-content: center; */
   /* background-color: pink; */
   /* justify-self: center; */
+  row-gap: .5rem;
+  padding: 1rem 0;
+    grid-template-rows: .2fr .2fr .2fr .1fr;
   flex-grow: 1;
+  max-height: 100vh;
 
   width: 60%;
+
+
+  /* width: 90vw; */
+  /* display: grid; */
+
+
+  /* flex-grow: 1; */
+}
+
+#name-component div > * {
+  /* background-color: pink; */
 }
 
 #name-taker {
@@ -304,12 +319,9 @@ td, th {
 
 #name-component div {
  
-  padding: 3rem 0;
-width: 90vw;
-  display: grid;
- grid-template-rows: .2fr .2fr .2fr .1fr;
- row-gap: 1rem;
-  flex-grow: 1;
+ row-gap: 2rem;
+ min-height: 60%;
+  grid-template-rows: .2fr .2fr .2fr .1fr;
   /* background-color: pink; */
 }
 
