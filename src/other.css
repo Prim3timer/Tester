@@ -312,6 +312,13 @@ td, th {
   
 
 @media screen and (max-width: 500px) {
+
+
+#app {
+    font-size: 1.2rem 
+   
+}
+
     #ul-container, #test-canvas {
         /* background-color: yellow; */
         width: 100%;
@@ -377,6 +384,11 @@ button {
 
 }
 @media screen and (min-width: 501px) {
+#app {
+    font-size: 1.2rem 
+   
+}
+
   #test-page {
     width: 95%;
     /* align-self: center; */
