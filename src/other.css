@@ -175,8 +175,36 @@ ul {
  
     
 }
+/* #tableA {
+  background-color: blue;
+  margin-left: 10rem;
+} */
+
+#tableA {
+    margin: 0rem .5rem;
+}
+
+td, th {
+  /* display: flex;
+  flex-direction: column; */
+  padding: 2rem 0;
+  /* margin: 1rem 0 0 1rem; */
+  color: #1e293b;
+  /* background-color: red; */
+}
 
 
+   #name {
+    /* background-color: pink; */
+    margin-left: 2rem;
+    padding-top: 1rem;
+   }
+
+  #tableA td {
+     padding: 10px;
+    border-bottom: 2px solid brown;
+    height: 55px;
+   }
 
   button {
     color: inherit;
@@ -210,7 +238,14 @@ ul {
         /* background-color: yellow; */
         width: 100%;
     }
+#result-table {
+  overflow: auto;
+}
+#tableA {
 
+     width: 200vw;
+
+}
 
 button {
   height: 3rem;
