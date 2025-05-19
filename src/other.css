@@ -392,11 +392,11 @@ button {
     column-gap: 5%;
   }
 
-   #test-canvas {
+   #test-canvas div{
     /* text-align: right; */
     /* background-color: pink; */
     /* column-gap: .5rem; */
-    width: 85%;
+    max-width: 95%;
   }
   .interview {
     /* background-color: pink; */
