@@ -251,6 +251,7 @@ td, th {
 
   #tableA td {
     border-bottom: 2px solid brown;
+    padding: .5rem;
     /* height: 55px; */
    }
 
