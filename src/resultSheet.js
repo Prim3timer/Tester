@@ -45,8 +45,8 @@ console.log(score)
 
                     >
                         
-            <h4 id='name'
-            >Name: {reportCard.candidate}, Score: {score}%</h4>
+            <h2 id='name'
+            >Name: {reportCard.candidate},  Score: {score}%</h2>
             </article>
             </main>
             <table id='tableA'>

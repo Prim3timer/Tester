@@ -315,7 +315,7 @@ td, th {
 
 
 #app {
-    font-size: 1.2rem 
+    font-size: 1.2rem;
    
 }
 
@@ -374,6 +374,7 @@ button {
  }
   #header {
     column-gap: 5%;
+     padding: .5rem .5rem;
   }
   #instructions {
      /* text-align: center; */
@@ -389,6 +390,7 @@ button {
    
 }
 
+
   #test-page {
     width: 95%;
     /* align-self: center; */
@@ -402,6 +404,7 @@ button {
   }
   #header {
     column-gap: 5%;
+      padding: .5rem .5rem;
   }
 
    #test-canvas div{
