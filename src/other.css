@@ -181,13 +181,14 @@ ul {
 } */
 
 #tableA {
+  text-align: center;
     margin: 0rem .5rem;
 }
 
 td, th {
   /* display: flex;
   flex-direction: column; */
-  padding: 2rem 0;
+  padding: 1rem 0;
   /* margin: 1rem 0 0 1rem; */
   color: #1e293b;
   /* background-color: red; */
@@ -201,9 +202,9 @@ td, th {
    }
 
   #tableA td {
-     padding: 10px;
+     padding: 5px 10px;
     border-bottom: 2px solid brown;
-    height: 55px;
+    /* height: 55px; */
    }
 
   button {
