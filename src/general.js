@@ -230,10 +230,11 @@ id="trans-verify-section"
     }
 
     return (
-      <div
-          className="general-result-control"
+      <div 
+          className="general-result-container"
       >
           <article
+          className="general-result-control"
           >
 
           <button

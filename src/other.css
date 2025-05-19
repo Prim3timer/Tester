@@ -262,7 +262,7 @@ tr th{
       border-bottom: 2px solid brown;
 }
 
-  .general-result-control {
+  .general-result-container {
     margin-top: 2rem;
     /* background-color: aqua; */
     justify-content: center;
@@ -270,6 +270,28 @@ tr th{
     column-gap: 2rem;
     display: flex;
     flex-direction: column;
+   }
+
+
+.general-result-container form, h3 {
+ 
+  /* background-color: pink; */
+  text-align: center;
+  width: 100vw;
+}
+
+input {
+  padding: .5rem;
+}
+
+  .general-result-control {
+  display: flex;
+    /* background-color: pink; */
+    width: 100vw;
+    justify-content: center;
+    column-gap: 2rem;
+    
+   
    }
 
    #searcher {
@@ -281,7 +303,7 @@ tr th{
    }
 
   .general-table {
-     overflow: scroll;
+     margin: 1rem .5rem;
    }
 
    .general-table td, th {
@@ -341,9 +363,50 @@ tr th{
     text-align: center;
   }
   
+  .general-warning-container {
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+        place-content: center;
+text-align: center;
+top: 35%;
+left: 5%;
+width: 90%;
+ padding: 1rem;
+   background-color: #DBBFDB;
+   border-radius: 5px;
+   opacity: .85;
+
+}
+
+.general-warning {
+/* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    column-gap: 4rem;
+    justify-content: center;
+}
+
+.general-warning > * {
+  font-size: 1.2rem;
+  padding: .3rem 0;
+}
+.general-alert {
+    position: fixed;
+    margin: 1rem 0;
+    top: 35%;
+left: 25%;
+width: 40%;
+padding: 1rem;
+background-color: #3CB371;
+border-radius: 5px;
+opacity: .85;
+
+}
+
 
 @media screen and (max-width: 500px) {
-.general-result-control {
+.general-result-container {
   align-items: flex-start;
      overflow: auto;
    }
