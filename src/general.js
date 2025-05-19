@@ -212,6 +212,9 @@ id="trans-verify-section"
         <article
      className="general-warning"
         ><button
+        style={{ backgroundColor: 'dodgerblue',
+            borderColor: 'dodgerblue'
+        }}
         onClick={remain}
         >No</button><button
         onClick={() => remover(id)}
