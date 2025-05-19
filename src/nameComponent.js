@@ -11,7 +11,8 @@ error})=> {
     let time = quiz.length * 10
     return (
         <section id="name-component">
-<h1>Under Maintainance</h1>
+            <div>
+
             <h3 id="instructions"
            >You have {Math.floor(time/60)} munites{time % 60 ? `, ${time % 60} seconds`: ''}  to complete a 
             general knowledge test comprising of {quiz.length} questions. Enter your name and click the 'Start' button to begin.</h3>
@@ -28,7 +29,8 @@ error})=> {
         <button id="continuity" 
         onClick={verifyName}
         style={{borderRadius: '5px'}}
-        >Start</button> 
+        >Start</button>
+        </div> 
 </section>
     )
 }
