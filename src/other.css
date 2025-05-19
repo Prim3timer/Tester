@@ -188,8 +188,9 @@ ul {
 td, th {
   /* display: flex;
   flex-direction: column; */
-  padding: 1rem 0;
+
   /* margin: 1rem 0 0 1rem; */
+  padding: 5px 0px;
   color: #1e293b;
   /* background-color: red; */
 }
@@ -202,7 +203,7 @@ td, th {
    }
 
   #tableA td {
-     padding: 5px 10px;
+ 
     border-bottom: 2px solid brown;
     /* height: 55px; */
    }
