@@ -36,8 +36,8 @@
 
 #name-component div {
   display: grid;
-  height: 50vh;
-  width: 90vw;
+  height: 40vh;
+  max-width: 70vw;
   /* place-content: center; */
   /* background-color: pink; */
   /* justify-self: center; */
@@ -236,10 +236,12 @@ td, th {
     /* background-color: pink; */
     margin: 3rem 0 0 2rem;
     padding-top: 1rem;
-   }
-
-   #instructions {
+  }
+  
+  #instructions {
+     /* background-color: pink; */
     text-align: left;
+    /* width: ; */
    }
 
   #tableA td {
@@ -287,6 +289,17 @@ td, th {
      width: 200vw;
 
 }
+
+#name-component div {
+  display: grid;
+  height: 40vh;
+width: 95vw;
+  /* place-content: center; */
+  /* background-color: pink; */
+  /* justify-self: center; */
+  flex-grow: 1;
+}
+
 
 button {
   height: 3rem;
