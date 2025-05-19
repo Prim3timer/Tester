@@ -231,9 +231,9 @@ id="trans-verify-section"
 
     return (
       <div
+          className="general-result-control"
       >
           <article
-          className="general-result-control"
           >
 
           <button
@@ -250,10 +250,7 @@ id="trans-verify-section"
        type="text"
        role="searchbox"     
        placeholder="Search items by name"
-       style={{ margin: '.5rem 0',   fontSize: '1.5rem',
-        border: '2px solid ingigo',
-
-       }}
+    
        value={search}
        onChange={(e)=> setSearch(e.target.value)}
              

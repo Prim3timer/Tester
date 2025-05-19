@@ -12,6 +12,7 @@
     display: flex;
     flex-direction: column;
     background-color: #1e293b;
+
     /* align-items: center; */
 }
 
@@ -257,7 +258,37 @@ td, th {
   /* background-color: red; */
 }
 
+tr th{
+      border-bottom: 2px solid brown;
+}
 
+  .general-result-control {
+    margin-top: 2rem;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+    display: flex;
+    flex-direction: column;
+   }
+
+   #searcher {
+ margin: .5rem 0; 
+   font-size: 1.5rem;
+  border: 2px solid indigo;
+
+
+   }
+
+  .general-table {
+     overflow: scroll;
+   }
+
+   .general-table td, th {
+  padding: 10px;
+  border-bottom: 1px solid brown;
+  height: 55px;
+}
 
    #name {
     /* background-color: pink; */
@@ -312,7 +343,10 @@ td, th {
   
 
 @media screen and (max-width: 500px) {
-
+.general-result-control {
+  align-items: flex-start;
+     overflow: auto;
+   }
 
 #app {
     font-size: 1.2rem;
