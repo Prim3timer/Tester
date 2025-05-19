@@ -28,15 +28,15 @@
 #name-component {
    /* align-content: normal;
    justify-content: normal; */
-
-/* width: 90%; */
+   /* width: 90%; */
+   
+  }
   
-}
-
-
-#name-component div {
+  
+  #name-component div {
+  padding: 2rem 0;
   display: grid;
-  height: 40vh;
+  min-height: 100vh;
   max-width: 70vw;
   /* place-content: center; */
   /* background-color: pink; */
