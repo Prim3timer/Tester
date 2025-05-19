@@ -37,9 +37,8 @@
   
   #name-component div {
      justify-self: center;
-  padding: 2rem 0;
   display: grid;
-  min-height: 100vh;
+  min-height: 80vh;
   min-width: 90vw;
   /* place-content: center; */
   /* background-color: pink; */
