@@ -29,19 +29,25 @@
    /* align-content: normal;
    justify-content: normal; */
    /* width: 90%; */
+   align-items: center;
+  
    
   }
   
   
   #name-component div {
+     justify-self: center;
   padding: 2rem 0;
   display: grid;
   min-height: 100vh;
-  max-width: 70vw;
+  /* max-width: 70vw; */
+  grid-template-rows: repeat(4, );
   /* place-content: center; */
   /* background-color: pink; */
   /* justify-self: center; */
   flex-grow: 1;
+
+  width: 60%;
 }
 
 #name-taker {
@@ -274,6 +280,12 @@ td, th {
     box-shadow: 0em 0e 0em;
     transition-duration: 0.1s;
   }
+ 
+  
+  .real-error {
+    color: tomato;
+    display: block;
+  }
   
 
 @media screen and (max-width: 500px) {
@@ -291,22 +303,28 @@ td, th {
 }
 
 #name-component div {
+ 
+  padding: 7rem 0;
+width: 90vw;
   display: grid;
-  height: 40vh;
-width: 95vw;
-  /* place-content: center; */
-  /* background-color: pink; */
-  /* justify-self: center; */
+ grid-template-rows: .2fr .2fr .1fr .1fr;
+ row-gap: 4rem;
   flex-grow: 1;
+  /* background-color: pink; */
 }
 
+
+#name-component div > * {
+  /* background-color: pink; */
+}
 
 button {
   height: 3rem;
 }
   
 
-   ul {
+   #name-taker{
+    width: 90%;
 
 }
 
@@ -330,16 +348,13 @@ button {
   #header {
     column-gap: 5%;
   }
+  #instructions {
+     /* text-align: center; */
+  }
 
   
 
-  /* .controls{
-width: 90%;
-  align-content: center;
-    justify-content: center;
-    justify-self: center;
-    column-gap: 2rem;   
-} */
+
 }
 @media screen and (min-width: 501px) {
   #test-page {

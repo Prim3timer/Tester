@@ -1,0 +1,12 @@
+Grid
+to arrange items inside a grid container into rows, you type
+grid-auto-flow: rows
+
+to give the elements now stacked as column or  lined as rows dimension
+we use:
+grid-template-colums: 2fr 1fr 1fr;
+the fr will indecate how tall or how wide the respective elements are going to be.
+
+and
+
+grid-template-rows
