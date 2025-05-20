@@ -245,6 +245,7 @@ ul {
     column-gap: 2rem;
     row-gap: 1rem;
     flex-wrap: wrap;
+    font-size: 2rem;
     /* background-color: orange; */
     /* text-align: center; */
     justify-self: center;
