@@ -611,9 +611,9 @@ button {
   }
   .controls {
       /* background-color: pink; */
-    column-gap: 10rem;
+    column-gap:7rem;
     justify-content: flex-start;
-    min-width: 80vw;
+    width: 50vw;
   }
 
 
