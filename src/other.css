@@ -256,7 +256,20 @@ ul {
  
     
 }
-/* #tableA {
+
+
+.controls > *:nth-child(1) {
+  text-align: left;
+  padding: 0 0 0 1rem;
+}
+.controls > *:nth-child(2) {
+  text-align: right;
+  padding: 0 1rem  0  0;
+}
+
+/* #
+
+tableA {
   background-color: blue;
   margin-left: 10rem;
 } */
