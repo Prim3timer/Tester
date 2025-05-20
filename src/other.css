@@ -555,9 +555,10 @@ button {
     
   }
   .controls{
+   
     /* background-color: pink; */
     column-gap: 2rem;
-    width: 75%;
+    width: 75vw;
     justify-content:flex-start;
   }
 
@@ -610,10 +611,10 @@ button {
  
   }
   .controls {
-      /* background-color: pink; */
-    column-gap:7rem;
+      /* background-color:red; */
+    column-gap:5rem;
     justify-content: flex-start;
-    width: 50vw;
+    width:50vw;
   }
 
 
