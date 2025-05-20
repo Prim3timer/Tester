@@ -62,7 +62,7 @@ console.log(score)
                 {/* const {q_no, qs, yourAnswer, correctAnswer, comment} = final */}
  {assessmentArray && assessmentArray.map((prop, index)=> {
     return    <tr style={{backgroundColor: index % 2 === 0 ?
-                'silver' : 'lightskyblue'}}
+                'paleturquoise' : 'lavender'}}
                 key={prop.ade}
                 >
         <td
