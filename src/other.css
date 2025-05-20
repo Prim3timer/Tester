@@ -5,6 +5,12 @@
 }
 
 
+#root {
+  flex-flow: nowrap;
+  /* display: flex;  */
+  /* min-height: 100%; */
+}
+
 #app {
     font: 1.5rem "Nunito", san-serif;
     color: whitesmoke;
@@ -12,92 +18,26 @@
     display: flex;
     flex-direction: column;
     background-color: #1e293b;
-
+    overflow-y: auto;
+    
     /* align-items: center; */
+  }
+
+  
+.App > * {
+  overflow-y: auto; 
 }
 
-#name-component, .check-result, #test-page, .check-result, #header, #copy, ul {
+  
+  #name-component, .check-result, #test-page, .check-result, #header, #copy, ul, #submitting, #getting {
     display: grid;
     place-content: center
-}
-
-/* get the content to fill the screen vertically */
-#name-component, #test-page, .check-result{
-    flex-grow: 1
-}
-
-#name-component {
-   /* align-content: normal;
-   justify-content: normal; */
-   /* width: 90%; */
-   /* align-items: center; */
-   /* max-width: 800px; */
-  text-align: center;
-  /* background-color: pink; */
-
-  
- 
-  
-   
-  }
-  
-  
-  #name-component div {
-     justify-self: center;
-  display: grid;
- /* row-gap: 1rem; */
-  min-width: 90%;
-  max-width: 700px;
-  /* place-content: center; */
-  /* background-color: pink; */
-  /* justify-self: center; */
-  row-gap: .5rem;
-  padding: 1rem 0;
-    grid-template-rows: .2fr .2fr .2fr .1fr;
-  flex-grow: 1;
-  max-height: 100vh;
-
-  width: 60%;
-
-
-  /* width: 90vw; */
-  /* display: grid; */
-
-
-  /* flex-grow: 1; */
-}
-
-#name-component div > * {
-  /* background-color: pink; */
-}
-
-#name-taker {
-  justify-self: center;
-  width: 80%;
-  height: 3rem;
-  
-}
-
-#continuity {
-  justify-self: center;
-
-}
-
-#test-page {
-  width: 100%;
- align-self: center;
-    align-content:  normal;
-   justify-content: normal;
-   /* background-color: pink; */
-   
   }
 
 
-  
-  
-  
   #header, #copy {
-    position: sticky;
+  position: fix;
+  /* overflow-y: auto; */
     background-color: #1e293b;
     color: whitesmoke;
     text-align: center;
@@ -105,7 +45,6 @@
   }
   
   #header{
-    position: sticky;
     border-bottom: 1px solid whitesmoke;
     grid-template-columns: repeat(3, 1fr);
     /* display: flex; */
@@ -125,10 +64,87 @@
   }
   
   
+/* get the content to fill the screen vertically */
+#name-component, #test-page, .check-result, #submitting, #getting{
+  flex-grow: 1
+}
+
+#name-component {
+  /* align-content: normal;
+  justify-content: normal; */
+  /* width: 90%; */
+  /* align-items: center; */
+  /* max-width: 800px; */
+  text-align: center;
+  /* background-color: pink; */
+  
+  
+  
+  
+  
+}
+
+
+#name-component div {
+  justify-self: center;
+  display: grid;
+  /* row-gap: 1rem; */
+  min-width: 90%;
+  max-width: 700px;
+  /* place-content: center; */
+  /* background-color: pink; */
+  /* justify-self: center; */
+  row-gap: .5rem;
+  padding: 1rem 0;
+  grid-template-rows: .2fr .2fr .2fr .1fr;
+  flex-grow: 1;
+  max-height: 100vh;
+  
+  width: 60%;
+  
+  
+  /* width: 90vw; */
+  /* display: grid; */
+  
+  
+  /* flex-grow: 1; */
+}
+
+#name-component div > * {
+  /* background-color: pink; */
+}
+
+#name-taker {
+  justify-self: center;
+  width: 80%;
+  height: 3rem;
+  
+}
+
+#continuity {
+  justify-self: center;
+  
+}
+
+#test-page {
+  width: 100%;
+  align-self: center;
+  align-content:  normal;
+  justify-content: normal;
+  /* background-color: pink; */
+  
+}
+
+
+
+
+
+
+  
   #clock {
     /* background-color: pink; */
     
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
     border: 1px solid white;
     align-items: center;
@@ -282,12 +298,13 @@ tr th{
 
 .general-result-container form input {
   padding: .5rem;
+  /* background-color: pink; */
 }
 
   .general-result-control {
   display: flex;
     /* background-color: pink; */
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     column-gap: 2rem;
     
@@ -303,6 +320,7 @@ tr th{
    }
 
   .general-table {
+    text-align: center;
      margin: 1rem .5rem;
    }
 
@@ -335,7 +353,7 @@ tr th{
     background-color: ghostwhite;
     border-color: ghostwhite;
     color: #1e293b;
-    width: 9rem;
+    width: 8rem;
     /* font-size: 4rem; */
 
     border-radius: 10px;
@@ -416,6 +434,15 @@ opacity: .85;
 
 }
 
+#submitting, #getting {
+  /* position: absolute; */
+  color: white;
+  top: 50%;
+  left: 30%;
+
+}
+
+
 
 @media screen and (max-width: 500px) {
 .general-result-container {
@@ -431,7 +458,13 @@ opacity: .85;
     #ul-container, #test-canvas {
         /* background-color: yellow; */
         width: 100%;
+      }
+      #name-component div {
+        justify-content: center;
+
     }
+
+ 
 #result-table {
   overflow: auto;
 }
@@ -446,7 +479,9 @@ opacity: .85;
  row-gap: 2rem;
  min-height: 60%;
   grid-template-rows: .2fr .2fr .2fr .1fr;
+  /* max-width: 95vw; */
   /* background-color: pink; */
+  /* padding: 0 1rem; */
 }
 
 
@@ -487,12 +522,31 @@ button {
     
   }
   #instructions {
-    /* text-align: center; */
+    padding: 0 1rem;
+    max-width: 95vw;
+    /* background-color: pink; */
   }
+
   
-  
-  
-  
+
+.general-result-container form, h3{
+ width: 100vw;
+  /* background-color: pink; */
+  text-align: center;
+  /* width: 100vw; */
+}
+
+.general-table {
+  width: 200vw;
+}
+
+#tableA {
+  min-width: 250vw;
+}
+
+.controls {
+  justify-content: center;
+}
 }
 @media screen and (min-width: 501px) {
   #app {
@@ -508,9 +562,14 @@ button {
   }
   .controls{
     /* background-color: pink; */
-    column-gap: 4rem;
-    width: 70%;
+    column-gap: 2rem;
+    width: 75%;
     justify-content:flex-start;
+  }
+
+  #submit {
+    
+    place-self: center;
   }
   #header {
     font-size: 1.5rem;
@@ -528,10 +587,15 @@ button {
     /* background-color: pink; */
     
   }
+  #tableA {
+
+    /* min-width: 300vw; */
+
+}
 }
 @media screen and (min-width: 816px) {
   #test-page {
-    width: 80%;
+    width: 60%;
     align-self: center;
     
   }
@@ -541,7 +605,7 @@ button {
     column-gap: 6rem;
     justify-content: flex-start;
       /* background-color: pink; */
-      width: 70%;
+      width: 80vw;
   }
 }
   @media screen and (min-width: 1090px) {
@@ -555,6 +619,7 @@ button {
       /* background-color: pink; */
     column-gap: 10rem;
     justify-content: flex-start;
+    min-width: 80vw;
   }
 
 

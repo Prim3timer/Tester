@@ -53,9 +53,7 @@ margin: .5rem 0;
   /* background-color: aqua; */
   
 }
-#name-taker {
-  width: 60%;
-}
+
 .controls {
 
       display: flex;
@@ -435,6 +433,7 @@ width: 90%;
 
 }
 
+
 .general-warning {
 /* background-color: blue; */
     display: flex;
@@ -473,7 +472,7 @@ opacity: .85;
       display: flex;
    }
   
-.general-table td {
+.general-table td, th {
   padding: 10px;
   border-bottom: 1px solid brown;
   height: 55px;
@@ -496,7 +495,7 @@ opacity: .85;
  }
 
  #searcher {
-  width: '70%'
+  width: '70%';
 }
 
 @media screen and (max-width: 450px) {
