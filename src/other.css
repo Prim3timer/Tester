@@ -18,30 +18,32 @@
     display: flex;
     flex-direction: column;
     background-color: #1e293b;
-    overflow-y: auto;
-    
-    /* align-items: center; */
+    /* overflow-y: auto; */
+    padding: 3rem 0 2rem 0;
   }
 
-  
+/*   
 .App > * {
-  overflow-y: auto; 
-}
+  overflow-x: auto; 
+} */
 
   
   #name-component, .check-result, #test-page, .check-result, #header, #copy, ul, #submitting, #getting {
     display: grid;
-    place-content: center
+    place-content: center;
+
   }
 
 
   #header, #copy {
-  position: fix;
+  position: fixed;
   /* overflow-y: auto; */
     background-color: #1e293b;
     color: whitesmoke;
     text-align: center;
     justify-self: center;
+    width: 100%;
+        /* margin: 5rem; */
   }
   
   #header{
@@ -55,6 +57,7 @@
     align-content: center;
     padding: 0 .5rem;
     
+    top: 0;
     /* flex-direction: column;   */
   }
   #title {
