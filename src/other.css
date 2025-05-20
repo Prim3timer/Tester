@@ -73,17 +73,9 @@
 }
 
 #name-component {
-  /* align-content: normal;
-  justify-content: normal; */
-  /* width: 90%; */
-  /* align-items: center; */
-  /* max-width: 800px; */
   text-align: center;
   /* background-color: pink; */
-  
-  
-  
-  
+ 
   
 }
 
@@ -98,7 +90,6 @@
   /* background-color: pink; */
   /* justify-self: center; */
   row-gap: .5rem;
-  padding: 1rem 0;
   grid-template-rows: .2fr .2fr .2fr .1fr;
   flex-grow: 1;
   max-height: 100vh;
@@ -121,6 +112,7 @@
   justify-self: center;
   width: 80%;
   height: 3rem;
+  padding: 0 .5rem;
   
 }
 
@@ -247,15 +239,15 @@ ul {
     flex-wrap: wrap;
     font-size: 2rem;
     /* background-color: orange; */
-    /* text-align: center; */
     justify-self: center;
     align-content: center;
     justify-content: flex-start;
     /* height: 3rem; */
-    /* width: 70%; */
+    /* font-weight: bold; */
  
     
 }
+
 
 
 .controls > *:nth-child(1) {
@@ -273,13 +265,6 @@ ul {
   text-align: center;
 }
 
-/* #
-
-tableA {
-  background-color: blue;
-  margin-left: 10rem;
-} */
-
 #tableA {
   /* border: 5px solid rgb(116, 115, 11); */
   text-align: center;
@@ -288,10 +273,6 @@ tableA {
 }
 
 td, th {
-  /* display: flex;
-  flex-direction: column; */
-
-  /* margin: 1rem 0 0 1rem; */
   padding: 5px 0px;
   color: #1e293b;
   /* background-color: red; */
@@ -326,7 +307,6 @@ tr th{
 
   .general-result-control {
   display: flex;
-    /* background-color: pink; */
     width: 100%;
     justify-content: center;
     column-gap: 2rem;
@@ -501,15 +481,8 @@ opacity: .85;
  row-gap: 2rem;
  min-height: 60%;
   grid-template-rows: .2fr .2fr .2fr .1fr;
-  /* max-width: 95vw; */
-  /* background-color: pink; */
-  /* padding: 0 1rem; */
 }
 
-
-#name-component div > * {
-  /* background-color: pink; */
-}
 
 button {
   height: 3rem;
@@ -529,7 +502,6 @@ button {
    grid-template-rows: 2rem;
    /* flex: 1 1 100%; */
    column-gap: .5rem;
-   /* margin-left: 2rem; */
    width: 95%;
    /* background-color: yellow; */
   }
