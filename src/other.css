@@ -266,6 +266,11 @@ ul {
   text-align: right;
   padding: 0 1rem  0  0;
 }
+.controls > *:nth-child(3) {
+  text-align: right;
+  padding: 0 1rem  0  0;
+  font-size: 1.5rem;
+}
 
 /* #
 
