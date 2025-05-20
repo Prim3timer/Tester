@@ -51,7 +51,7 @@ console.log(score)
             </main>
             <table id='tableA'>
                 <tbody>
-                    <tr style={{backgroundColor: 'powderblue'}}>
+                    <tr style={{backgroundColor: 'lightsteelblue'}}>
                     <th>Q. no.</th>
                     <th>remark</th>
                     <th>your answer</th>
@@ -62,7 +62,7 @@ console.log(score)
                 {/* const {q_no, qs, yourAnswer, correctAnswer, comment} = final */}
  {assessmentArray && assessmentArray.map((prop, index)=> {
     return    <tr style={{backgroundColor: index % 2 === 0 ?
-                'white' : 'lightskyblue'}}
+                'silver' : 'lightskyblue'}}
                 key={prop.ade}
                 >
         <td
