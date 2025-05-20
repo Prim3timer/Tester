@@ -66,16 +66,18 @@ console.log(score)
                 key={prop.ade}
                 >
         <td
-        style={{width: '10%'}}
+        style={{width: '10%',
+        
+        }}
         >{index + 1}.</td>
          {prop.attempt === prop.correctAnswer ? <td style={{color: 'green',
-            fontSize: '1.2rem'
+            fontSize: '1.6rem'
         }}>
             <FontAwesomeIcon icon={faCheck} style={{fontWeight: 'bold'}}/>
             {/* correct */}
             </td>
          : <td style={{color: 'red',
-             fontSize: '1.2rem',
+             fontSize: '1.6rem'
          }}>
                   <FontAwesomeIcon icon={faTimes} />
             </td>}
