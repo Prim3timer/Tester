@@ -54,8 +54,8 @@ console.log(score)
                     <tr style={{backgroundColor: 'lightsteelblue'}}>
                     <th>Q. no.</th>
                     <th>remark</th>
+                    <th>answer</th>
                     <th>your answer</th>
-                    <th>correct answer</th>
                     <th>questions</th>
                 </tr>
             
@@ -81,8 +81,8 @@ console.log(score)
          }}>
                   <FontAwesomeIcon icon={faTimes} />
             </td>}
-        <td style={{width: '20%'}}>{prop.attempt}</td>
         <td style={{width: '20%'}}>{prop.correctAnswer}</td>
+        <td style={{width: '20%'}}>{prop.attempt}</td>
         <td className='questions'>{prop.qs}</td>      
     </tr>
  })}
