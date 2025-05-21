@@ -188,6 +188,10 @@
    grid-template-rows: 3.5rem;
    
   }
+
+  #test-canvas {
+    font-size: 1.7rem;
+  }
   
   #qno {
     grid-column: 1 / 2;
