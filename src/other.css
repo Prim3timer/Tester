@@ -452,6 +452,12 @@ opacity: .85;
 }
 
 
+@media screen and (max-width: 400px) {
+  #test-canvas, #instructions {
+    font-size: 1.5rem;
+  }
+
+}
 
 @media screen and (max-width: 500px) {
 .general-result-container {
