@@ -40,8 +40,7 @@
   /* overflow-y: auto; */
     background-color: #1e293b;
     color: whitesmoke;
-    text-align: center;
-    justify-self: center;
+    place-content: center;
     width: 100%;
         /* margin: 5rem; */
   }
@@ -217,7 +216,7 @@
 
 ul {
     justify-content: flex-start;
-    align-content: flex-start;
+    /* align-content: center; */
     /* background-color: blue; */
     /* justify-content: flex-start; */
        align-content:  normal;
@@ -228,7 +227,7 @@ ul {
 }
  li input {
     width: 1.3rem; 
-    height: 1.3rem; 
+    height: 1.2rem; 
     margin-right: 1rem;
   }
 
