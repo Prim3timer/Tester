@@ -224,7 +224,7 @@ id="trans-verify-section"
        >Yes</button></article></div> : taskComplete ? <div
     className="general-alert"
         >
-          <h4>{reportCard.candidate}'s result' deleted</h4>
+          <h4>{reportCard.candidate}'s result deleted</h4>
             </div> : ''}
 
 </section>
