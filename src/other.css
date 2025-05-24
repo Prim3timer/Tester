@@ -587,6 +587,11 @@ button {
     font-size: 1.2rem 
     
   }
+
+  #name-component {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
   
 
   #test-page {
