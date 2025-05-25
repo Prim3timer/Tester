@@ -142,11 +142,11 @@
   #clock {
     /* background-color: pink; */
     
-    font-size: 2rem;
-    color: white;
-    border: 1px solid white;
-    align-items: center;
-    justify-content: start;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+text-align: center;
+    justify-content: center;
     /* flex: 0 0 5%; */
     padding: .2rem;
     width: 4rem;
@@ -164,6 +164,7 @@
     height: 2rem;
     /* display: flex; */
     color: tomato;
+    background-color: 2px solid tomato;
     align-items: center;
     justify-content: center;
     padding: .5rem;
@@ -502,7 +503,7 @@ opacity: .85;
 }
 
   #test-page {
-      padding: 6rem 0 0 0;
+      padding: 5rem 0 0 0;
   }
 
     #ul-container, #test-canvas {
@@ -609,7 +610,7 @@ button {
   #test-page {
     width: 95%;
     /* align-self: center; */
-    padding: 2rem 0 0 0 ;
+    padding: 1.5rem 0 .5rem 0 ;
     
   }
   .controls{
@@ -653,7 +654,7 @@ button {
 }
 @media screen and (min-width: 816px) {
   #test-page {
-      /* padding: 1.5rem 0 0 0; */
+      padding: 1.5rem 0 .5rem 0;
   }
 
 
