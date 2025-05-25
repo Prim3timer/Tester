@@ -85,7 +85,7 @@ useEffect(()=>{
                 
                   return (
                     <div key={exam.id} id="test-page">
-                      <article
+                      {/* <article
                       className="clock-container"
                     
                       >
@@ -96,7 +96,7 @@ useEffect(()=>{
                       >{clock === 0 ? `Time's Up` : ''}
                       </h3>
                     
-                      </article>
+                      </article> */}
                       <article id='test-canvas'>
                
                       <p id="qno">{index + 1}.</p>

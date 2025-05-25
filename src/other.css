@@ -12,7 +12,7 @@
 }
 
 #app {
-    font: 1.5rem "Nunito", san-serif;
+    font: 2rem "Nunito", san-serif;
     color: whitesmoke;
     min-height: 100vh;
     display: flex;
@@ -126,6 +126,9 @@
   align-content:  normal;
   justify-content: normal;
 
+
+  
+/* grid-template-rows: .1fr 1fr .5fr 1fr; */
   /* min-height: 100vh; */
   
 }
@@ -139,7 +142,7 @@
   #clock {
     /* background-color: pink; */
     
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: white;
     border: 1px solid white;
     align-items: center;
@@ -199,7 +202,6 @@
   }
   
   .interview {
-  /* background-color: yellow; */
     grid-column: 2 / 13;
    font-size: inherit;
    font-weight: bold;
@@ -212,7 +214,6 @@
     
     display: flex;
     justify-self: center;
-    /* text-align: center; */
     width: 60%;
     /* background-color: blue; */
 }
@@ -221,7 +222,6 @@ ul {
     justify-content: flex-start;
     /* align-content: center; */
     /* background-color: blue; */
-    /* justify-content: flex-start; */
        align-content:  normal;
     flex-grow: 1;
    list-style-type: none;
@@ -229,7 +229,7 @@ ul {
    /* background-color: yellow */
   }
   li input {
-    width: 1.5rem; 
+    width: 2rem; 
     height: 1.8rem; 
     margin-right: 1rem;
   }
@@ -273,9 +273,9 @@ ul {
   padding: 0 1rem  0  0;
 }
 .controls > *:nth-child(3) {
-  text-align: right;
+  text-align: center;
   padding: 0 1rem  0  0;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -330,7 +330,7 @@ tr th{
 
    #searcher {
  margin: .5rem 0; 
-   font-size: 1.5rem;
+   font-size: 2rem;
   border: 2px solid indigo;
 
 
@@ -462,24 +462,32 @@ opacity: .85;
 @media screen and (max-width: 400px) {
 
   .general-result-container {
-    padding: 3rem 0 2rem 0;
+    padding: 3rem 0 0 0;
+  }
+
+  #test-page {
+      padding: 6rem 0 0 0;
+  }
+  .interview {
+
+    /* background-color: yellow; */
+  }
+
+  .controls {
+    /* background-color: yellow; */
   }
 
 
   #test-canvas, #instructions {
-    font-size: 1.5rem;
+    font-size: 2rem;
 
-  }
-
-  #test-page {
-
-    /* min-height: 100vh; */
-    /* background-color: yellow; */
   }
 
   li {
     width: 80vw;
   }
+  
+
 }
 
 @media screen and (max-width: 500px) {
@@ -492,6 +500,10 @@ opacity: .85;
     font-size: 1.2rem;
    
 }
+
+  #test-page {
+      padding: 6rem 0 0 0;
+  }
 
     #ul-container, #test-canvas {
         /* background-color: yellow; */
@@ -547,7 +559,7 @@ button {
   width: 90%;
  }
   #header {
-    font-size: 1.5rem;
+    font-size: 2rem;
     column-gap: 5%;
     
   }
@@ -597,6 +609,7 @@ button {
   #test-page {
     width: 95%;
     /* align-self: center; */
+    padding: 2rem 0 0 0 ;
     
   }
   .controls{
@@ -612,7 +625,7 @@ button {
     place-self: center;
   }
   #header {
-    font-size: 1.5rem;
+    font-size: 2rem;
     column-gap: 5%;
  
   }
@@ -639,6 +652,9 @@ button {
 }
 }
 @media screen and (min-width: 816px) {
+  #test-page {
+      /* padding: 1.5rem 0 0 0; */
+  }
 
 
  #app {
@@ -671,6 +687,9 @@ button {
       width: 60%;
       /* background-color: pink; */
     align-self: center;
+ 
+      padding: 2rem 0 0 0;
+
  
   }
   .controls {
