@@ -270,24 +270,23 @@ ul {
   align-content: center;
   justify-content: flex-start;
   align-items: center;
-
+  
   padding: 0 0 0 1rem;
   font-size: 2rem;
 }
 .controls > *:nth-child(2) {
   display: flex;
-
+  
   align-items: center;
   justify-content: flex-end;
-
+  
   padding: 0 1rem  0  0;
   font-size: 2rem;
 }
 .controls > *:nth-child(3) {
-  text-align: center;
-  padding: 0 1rem  0  0;
+
   font-size: 1.5rem;
-  text-align: center;
+
 }
 
 #tableA {
