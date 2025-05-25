@@ -460,7 +460,7 @@ opacity: .85;
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 431px) {
 
   .general-result-container {
     padding: 3rem 0 0 0;
@@ -468,10 +468,10 @@ opacity: .85;
 
   #test-page {
       padding: 6rem 0 0 0;
+      /* background-color: yellow; */
   }
   .interview {
 
-    /* background-color: yellow; */
   }
 
   .controls {
@@ -611,6 +611,8 @@ button {
     width: 95%;
     /* align-self: center; */
     padding: 1.5rem 0 .5rem 0 ;
+        /* background-color: pink; */
+        width: 60%;
     
   }
   .controls{
@@ -655,6 +657,7 @@ button {
 @media screen and (min-width: 816px) {
   #test-page {
       padding: 1.5rem 0 .5rem 0;
+      /* background-color: yellow; */
   }
 
 
