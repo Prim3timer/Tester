@@ -484,6 +484,7 @@ opacity: .85;
 
   .controls {
     /* background-color: yellow; */
+    align-content: flex-end;
   }
 
 
