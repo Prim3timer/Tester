@@ -466,9 +466,15 @@ opacity: .85;
     padding: 3rem 0 0 0;
   }
 
+  #app {
+    /* background-color: orange; */
+    justify-content: center;
+  }
+
   #test-page {
       padding: 6rem 0 0 0;
       /* background-color: yellow; */
+      max-height: 90vh;
   }
   .interview {
 
