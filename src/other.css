@@ -524,7 +524,7 @@ opacity: .85;
   }
 
   #clock {
-    grid-column: 6 /7;
+    grid-column: 7 /8;
   }
   
   .admin{
