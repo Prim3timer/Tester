@@ -47,9 +47,10 @@
   
   #header{
     border-bottom: 1px solid whitesmoke;
-    grid-template-columns:repeat(1, 3fr .5fr 3fr);
+    /* grid-template-columns:repeat(1, 3fr .5fr 3fr); */
+       grid-template-columns: repeat(13, 1fr);
     /* display: flex; */
-    column-gap: 25%;
+    /* row-gap: 2rem; */
     height: 3rem;
     justify-content: flex-start;
     align-items: center;
@@ -59,11 +60,7 @@
     top: 0;
     /* flex-direction: column;   */
   }
-  #title {
-    /* background-color: pink; */
-    white-space: nowrap;
-    flex: 0 0 15%;
-  }
+
   
   
 /* get the content to fill the screen vertically */
@@ -134,37 +131,33 @@
 }
 
 
-
-
-
-
+  #title {
+    /* background-color: pink; */
+    white-space: nowrap;
+    /* flex: 0 0 15%; */
+    font-size: 2.5rem;
+    grid-column: 1 / 5
+  }
+  
+  
+  
   
   #clock {
-    /* background-color: pink; */
+    /* background-color: orange; */
+    grid-column: 7 / 8;
     
-    /* font-size: 1.5rem;
+    display: flex;
+    margin: 0 1rem;
+    height: 2rem;
     color: whitesmoke;
     border: 1px solid whitesmoke;
-text-align: center;
+    align-items: center;
     justify-content: center;
-
-    padding: .2rem;
-    width: 4rem; */
-
-display: flex;
-
-flex: 0 0 5%;
-margin: 0 1rem;
-height: 2rem;
-color: whitesmoke;
-border: 1px solid whitesmoke;
-align-items: center;
-justify-content: center;
-padding: .5rem;
-
-}
+    padding: .5rem;
+    
+  }
   
- 
+  
   
   #winding-clock {
     display: flex;
@@ -176,16 +169,18 @@ padding: .5rem;
     align-items: center;
     justify-content: center;
     padding: .5rem;
-
-
     
-
+    
+    
+    
   }
   
-
-   .admin {
+  
+  .admin {
+     /* background-color: yellowgreen; */
  font-size: 1rem;
- height: 2rem;
+ height: 2.5rem;
+ grid-column: 11/14;
     
   }
   
@@ -495,6 +490,7 @@ opacity: .85;
   #result-table {
     /* padding-top: 4rem; */
   }
+  
 
   #app {
     /* background-color: orange; */
@@ -521,6 +517,15 @@ opacity: .85;
 
   li {
     width: 80vw;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  .admin{
+    grid-column: 8/14;
+    /* background-color: brown; */
   }
   
 
