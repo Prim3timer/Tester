@@ -47,7 +47,7 @@
   
   #header{
     border-bottom: 1px solid whitesmoke;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns:repeat(1, 3fr .5fr 3fr);
     /* display: flex; */
     column-gap: 25%;
     height: 3rem;
@@ -142,35 +142,52 @@
   #clock {
     /* background-color: pink; */
     
-    font-size: 1.5rem;
+    /* font-size: 1.5rem;
     color: whitesmoke;
     border: 1px solid whitesmoke;
 text-align: center;
     justify-content: center;
-    /* flex: 0 0 5%; */
+
     padding: .2rem;
-    width: 4rem;
+    width: 4rem; */
+
+display: flex;
+
+flex: 0 0 5%;
+margin: 0 1rem;
+height: 2rem;
+color: whitesmoke;
+border: 1px solid whitesmoke;
+align-items: center;
+justify-content: center;
+padding: .5rem;
+
+}
+  
+ 
+  
+  #winding-clock {
+    display: flex;
+
+    margin: 0 1rem;
+    height: 2rem;
+    color: tomato;
+    border: 1px solid tomato;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+
+
+    
+
   }
   
-  .admin {
+
+   .admin {
  font-size: 1rem;
  height: 2rem;
     
   }
-  
-  #winding-clock {
-    flex: 0 0 5%;
-    margin: 0 1rem;
-    height: 2rem;
-    /* display: flex; */
-    color: tomato;
-    background-color: 2px solid tomato;
-    align-items: center;
-    justify-content: center;
-    padding: .5rem;
-    /* width: 4rem; */
-  }
-  
   
   #copy {
     font-size: 15px;

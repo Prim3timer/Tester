@@ -216,7 +216,7 @@ let quiz = [
         const j = Math.floor(Math.random() * (i + 1));
         [arr[i], arr[j]] = [arr[j], arr[i]];
       }
-      arr.length = 25
+      arr.length = 15
       return arr;
     }
   
