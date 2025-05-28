@@ -480,6 +480,14 @@ opacity: .85;
 
 }
 
+@media screen and (max-width: 361px){
+  #test-page {
+
+    /* background-color: pink; */
+    grid-template-rows: 1.5fr 1fr 1fr
+  }
+}
+
 
 @media screen and (max-width: 431px) {
 
