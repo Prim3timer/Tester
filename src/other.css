@@ -484,7 +484,7 @@ opacity: .85;
   #test-page {
 
     /* background-color: pink; */
-    grid-template-rows: 1.5fr 1fr 1fr
+    grid-template-rows: 1.2fr 1.5fr 1fr
   }
 }
 
