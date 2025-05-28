@@ -160,6 +160,7 @@
   
   
   #winding-clock {
+    grid-column: 7 / 8;
     display: flex;
 
     margin: 0 1rem;
