@@ -309,7 +309,11 @@ setId={setId}
             ><h5 id='title'>Auto Tester</h5>
             {started && <h5 id={clock < 20 ? 'winding-clock' : 'clock'}
                      
-                  >{clock < 10 ? `:0${clock % 60}` : clock < 60 ? `:${clock % 60}`  : clock % 60 >= 10 ? `${Math.floor(clock / 60)}:${clock % 60}` : clock < 10 ? 0`${clock % 60}`:   `${Math.floor(clock / 60)}:0${clock % 60}`
+                  >{clock < 10 ? `0:0${clock % 60}` : 
+                  clock < 60 ? `0:${clock % 60}`  : 
+                  clock % 60 >= 10 ? `${Math.floor(clock / 60)}:${clock % 60}` :
+                   clock < 10 ? 0`${clock % 60}`:  
+                    `${Math.floor(clock / 60)}:0${clock % 60}`
                   }</h5>}
                    { candidate === 'Dike'  || allResults && started ? <button
                    className='admin'

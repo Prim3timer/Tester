@@ -130,13 +130,13 @@
   
 }
 
-
   #title {
     /* background-color: pink; */
     white-space: nowrap;
     /* flex: 0 0 15%; */
     font-size: 2rem;
-    grid-column: 1 / 5
+    grid-column: 1 / 5;
+    align-self: start;
   }
   
   
@@ -482,6 +482,7 @@ opacity: .85;
 }
 
 @media screen and (max-width: 361px){
+ 
   #test-page {
 
     /* background-color: pink; */
