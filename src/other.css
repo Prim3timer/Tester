@@ -119,7 +119,7 @@
 
 #test-page {
   width: 100%;
-  align-self: center;
+  /* align-self: center; */
   align-content:  normal;
   justify-content: normal;
 

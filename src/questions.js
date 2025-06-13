@@ -207,6 +207,12 @@ let quiz = [
       options: ["East", "West", "North", "South"],
       answer: "North"
     },
+    {
+      id: 33,
+      quiz: "What is the name of the first dog to go to space?",
+      options: ["Laika", "Molly", "Mack", "Lassy"],
+      answer: "Laika"
+    }
 
   ];
 
