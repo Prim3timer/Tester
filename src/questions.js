@@ -175,7 +175,7 @@ let quiz = [
       id: 27,
       quiz: "Which of these is a nutrient?",
       options: ["Meat", "Fat", "Juice", "Fish"],
-      answer: "Beer"
+      answer: "Fat"
     },
     {
       id: 28,
