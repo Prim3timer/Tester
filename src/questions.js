@@ -212,7 +212,13 @@ let quiz = [
       quiz: "What is the name of the first dog to go to space?",
       options: ["Laika", "Molly", "Mack", "Lassy"],
       answer: "Laika"
-    }
+    },
+    {
+      id: 34,
+      quiz: "When did the Cuban revolution take place",
+      otions: ["1990", "1936", "1959", "1906"],
+      answer: "1959"
+    }, 
 
   ];
 
