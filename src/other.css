@@ -667,7 +667,7 @@ button {
 
   #test-page {
     width: 95%;
-    /* align-self: center; */
+    align-self: center;
     padding: 1.5rem 0 .5rem 0 ;
         /* background-color: pink; */
         width: 60%;
