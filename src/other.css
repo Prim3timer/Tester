@@ -316,7 +316,7 @@ td, th {
 }
 
 tr th{
-      border-bottom: 2px solid brown;
+      /* border-bottom: 2px solid brown; */
 }
 
   .general-result-container {
@@ -366,7 +366,6 @@ tr th{
 
    .general-table td, th {
   padding: 10px;
-  border-bottom: 1px solid brown;
   height: 55px;
 }
 
@@ -383,7 +382,7 @@ tr th{
    }
 
   #tableA td {
-    border-bottom: 2px solid brown;
+    
     padding: .5rem;
     /* height: 55px; */
    }
