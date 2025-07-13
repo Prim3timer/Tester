@@ -402,7 +402,7 @@ width: 70vw;
   
   #tableA td {
      padding: 5px;
-    border-bottom: 1px solid brown;
+    /* border-bottom: 1px solid brown; */
     height: 55px;
    }
 

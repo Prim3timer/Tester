@@ -215,8 +215,8 @@ let quiz = [
     },
     {
       id: 34,
-      quiz: "When did the Cuban revolution take place",
-      otions: ["1990", "1936", "1959", "1906"],
+      quiz: "When did the Cuban revolution completed",
+      otions: ["1890", "1936", "1959", "1906"],
       answer: "1959"
     }, 
 

@@ -33,13 +33,6 @@ console.log(score)
         <article id='result-table'>
             <main id='cred' 
             >
- {/* <button
-                         style={{
-                          display: candidate === 'Dike' ? 'block' : 'none',
-                        //   marginBottom: '2rem'
-                         }}
-                    onClick={showResults}
-                    >View Results</button> */}
                     <article
                   id='strict-cred'
 

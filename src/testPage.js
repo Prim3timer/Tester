@@ -79,7 +79,7 @@ useEffect(()=>{
 }, [next])
         return (
 
-            quiz.map((exam, index)=> {
+            quiz && quiz.map((exam, index)=> {
                 if(index === next){
               
                 
