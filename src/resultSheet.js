@@ -5,12 +5,9 @@ import { faCheck, faTimes, faArrowRight } from "@fortawesome/free-solid-svg-icon
 const ResultSheet = ({final, setFinal, candidate,
     reportCard,
 showResults})=> {
-console.log(reportCard)
     let assessmentArray = []
     let mainMan = Object.values(reportCard)
 
-console.log(mainMan)
-// console.log(mainMan[2][0])   
 for (let i = 0; i < quiz.length; i++){
     const assessmentObject = {
         q_no: mainMan[3][i], qs: mainMan[4][i], attempt: mainMan[5][i],
@@ -18,7 +15,6 @@ for (let i = 0; i < quiz.length; i++){
     }
     assessmentArray.push(assessmentObject)
 }
-console.log(assessmentArray)
 let score = 0
 for (let i = 0; i < quiz.length; i++){
     if (assessmentArray[i].attempt === assessmentArray[i].correctAnswer){
@@ -26,8 +22,6 @@ for (let i = 0; i < quiz.length; i++){
     } 
 }
 
-
-console.log(score)
 
     return (
         <article id='result-table'>
@@ -56,7 +50,7 @@ console.log(score)
  {assessmentArray && assessmentArray.map((prop, index)=> {
     return    <tr style={{backgroundColor: index % 2 === 0 ?
                 'paleturquoise' : 'lavender'}}
-                key={prop.ade}
+                key={prop.q_no}
                 >
         <td
         style={{width: '10%',

@@ -58,6 +58,7 @@ const inputRef1 = useRef('')
 const inputRef2 = useRef('')
 const inputRef3 = useRef('')
   const inputArray = [inputRef, inputRef1, inputRef2,  inputRef3]
+  // console.log(quiz)
   let mark = 0
 
   const year = new Date().getFullYear()
@@ -86,14 +87,14 @@ const inputRef3 = useRef('')
                  id,
                  candidate: candidate,
                  q_no: qnArray,
-                 quiz: qsArray,
+                 questions: qsArray,
                  attempt: colator,
                  answer: answersArray, 
                  date: format(date, 'dd/MM/yyyy HH:mm:ss'),
                  mark: mark
                 }
                 
-                console.log(mark)
+                console.log(result)
               
              try {             
                 const response = await axios.post('https://mawuhi-back.onrender.com/results', result)
@@ -185,11 +186,12 @@ const getResult = async ()=> {
   setIsDone(false)
                   setIsAltLoading(true)
                   const report = await axios.get(`https://mawuhi-back.onrender.com/results`)                  
-                  // const report = await axios.get(`http://localhost:3500/results`)                  
+                  // const report = await axios.get(`http://localhost:3500/results`)    
+                  console.log(report)              
                  if (report){
                     setIsAltLoading(false)
                     setPresent(true)
-                   const currentResult = report.data.quiz.find((assess)=> assess.ade === id)
+                   const currentResult = report.data.questions.find((assess)=> assess.ade === id)
                    console.log(currentResult)
                     setReportCard(currentResult)
                     
