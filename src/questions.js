@@ -215,10 +215,16 @@ let quiz = [
     },
     {
       id: 34,
-      quiz: "When did the Cuban revolution completed",
-      otions: ["1890", "1936", "1959", "1906"],
+      quiz: "When was the Cuban revolution completed",
+      options: ["1890", "1936", "1959", "1906"],
       answer: "1959"
     }, 
+    {
+      id: 35,
+      quiz: "How many countries have landed on the mooon",
+      options: ["1", "2", "3", "4"],
+      answer: "1"
+    }
 
   ];
 

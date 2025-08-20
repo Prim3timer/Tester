@@ -80,7 +80,7 @@ useEffect(()=>{
         return (
 
             quiz && quiz.map((exam, index)=> {
-                if(index === next){
+                if(index === next){ 
               
                 
                   return (

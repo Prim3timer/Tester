@@ -48,6 +48,7 @@ function App() {
   const [allResults, setAllResults] = useState(false)
 
 
+
  
 
 
@@ -85,7 +86,7 @@ const inputRef3 = useRef('')
                  id,
                  candidate: candidate,
                  q_no: qnArray,
-                 questions: qsArray,
+                 quiz: qsArray,
                  attempt: colator,
                  answer: answersArray, 
                  date: format(date, 'dd/MM/yyyy HH:mm:ss'),
@@ -188,7 +189,7 @@ const getResult = async ()=> {
                  if (report){
                     setIsAltLoading(false)
                     setPresent(true)
-                   const currentResult = report.data.questions.find((assess)=> assess.ade === id)
+                   const currentResult = report.data.quiz.find((assess)=> assess.ade === id)
                    console.log(currentResult)
                     setReportCard(currentResult)
                     
@@ -206,8 +207,6 @@ const showResults = () => {
           
         if (candidate){
           setId(uuid())
-          console.log(uuid())
-          console.log(id)
           setStarted(true)
           setStarting(false)
         }else throw new Error('Enter your name for unique ID')
