@@ -67,7 +67,7 @@ useEffect(()=> {
       if (started === true) {
         setClock(clock - 1)
       }
-    }, 1000)
+    }, 100000)
     if (clock < 1) {
     handleSubmit()
       setClock(0)
