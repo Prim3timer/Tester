@@ -298,13 +298,13 @@ ul {
   align-content: center;
   justify-content: flex-start;
   align-items: center;
-  grid-column: 3/3;
+  grid-column: 2/3;
   padding: 0 0 0 1rem;
   font-size: 2rem;
 }
 .controls > *:nth-child(2) {
   display: flex;
-  grid-column: 4/5;
+  grid-column: 5/5;
   align-items: center;
   justify-content: flex-end;
   
