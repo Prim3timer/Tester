@@ -122,6 +122,7 @@
   /* align-self: center; */
   align-content:  normal;
   justify-content: normal;
+  /* background-color: pink; */
 
 
   
@@ -261,8 +262,9 @@ ul {
   }
 
 .controls{
-    display: flex;
-    column-gap: 2rem;
+    display: grid;
+    column-gap: 1rem;
+    grid-template-columns: repeat(6, 1fr);
     row-gap: 1rem;
     flex-wrap: wrap;
     font-size: 2rem;
@@ -270,11 +272,23 @@ ul {
     justify-self: center;
     align-content: center;
     justify-content: flex-start;
+    justify-items: center;
+    padding: 0 1rem;
+
+    width: 95%;
     /* height: 3rem; */
     /* font-weight: bold; */
  
     
 }
+
+.controls {
+  /* grid-template-columns: repeat(3,1fr); */
+
+
+}
+
+
 
 
 
@@ -289,7 +303,7 @@ ul {
 }
 .controls > *:nth-child(2) {
   display: flex;
-  
+  grid-column: 4/4;
   align-items: center;
   justify-content: flex-end;
   
@@ -297,6 +311,7 @@ ul {
   font-size: 2rem;
 }
 .controls > *:nth-child(3) {
+  grid-column: 1/2;
 
   font-size: 1.5rem;
 
@@ -515,7 +530,7 @@ opacity: .85;
 
   .controls {
     /* background-color: yellow; */
-    align-content: flex-end;
+    /* align-content: flex-end; */
   }
 
 
@@ -644,10 +659,20 @@ button {
   min-width: 250vw;
 }
 
-.controls {
-  justify-content: center;
+/* .controls {
+  grid-template-columns: repeat(3,1fr);
+
+
 }
+
+.controls >*:nth-child(2){
+  grid-column: 2/2;
 }
+.controls >*:nth-child(3){
+  grid-column: 1/2;
+} */
+}
+
 @media screen and (min-width: 501px) {
   #app {
 
@@ -672,13 +697,13 @@ button {
         width: 60%;
     
   }
-  .controls{
+  /* .controls{
    
-    /* background-color: pink; */
+
     column-gap: 2rem;
     width: 75vw;
     justify-content:flex-start;
-  }
+  } */
 
   #submit {
     
@@ -741,30 +766,40 @@ button {
  
   .controls {
     column-gap: 6rem;
+    grid-template-columns: repeat(8, 1fr);
     justify-content: flex-start;
-      /* background-color: pink; */
+ 
       width: 80vw;
   }
+  .controls>*:nth-child(2){
+    grid-column: 2/3;
+  }
+  .controls>*:nth-child(3){
+    grid-column: 3/4;
+  }
+
+
 }
   @media screen and (min-width: 1090px) {
     #test-page {
       width: 60%;
       /* background-color: pink; */
     align-self: center;
- 
       padding: 2rem 0 0 0;
 
  
   }
   .controls {
       /* background-color:red; */
-    column-gap:5rem;
+    /* column-gap:5rem;
     justify-content: flex-start;
-    width:50vw;
+    width:50vw; */
   }
 
 
 }
+
+
 
 
 
