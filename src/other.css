@@ -775,10 +775,10 @@ button {
       width: 80vw;
   }
   .controls>*:nth-child(1){
-    grid-column: 3/4;
+    grid-column: 2/3;
   }
   .controls>*:nth-child(2){
-    grid-column: 5/6;
+    grid-column: 4/5;
   }
   .controls>*:nth-child(3){
     grid-column:6/7;
