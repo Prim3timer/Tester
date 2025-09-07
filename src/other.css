@@ -271,9 +271,10 @@ ul {
     /* background-color: orange; */
     justify-self: center;
     align-content: center;
-    justify-content: flex-start;
+    align-items: center;
+    /* justify-content: flex-start; */
     justify-items: center;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
 
     width: 95%;
     /* height: 3rem; */
@@ -297,13 +298,13 @@ ul {
   align-content: center;
   justify-content: flex-start;
   align-items: center;
-  
+  grid-column: 2/3;
   padding: 0 0 0 1rem;
   font-size: 2rem;
 }
 .controls > *:nth-child(2) {
   display: flex;
-  grid-column: 4/4;
+  grid-column: 3/4;
   align-items: center;
   justify-content: flex-end;
   
@@ -311,7 +312,9 @@ ul {
   font-size: 2rem;
 }
 .controls > *:nth-child(3) {
-  grid-column: 1/2;
+  grid-column: 1/5;
+  justify-self: center;
+  /* margin-left: 4rem; */
 
   font-size: 1.5rem;
 
@@ -765,17 +768,20 @@ button {
   
  
   .controls {
-    column-gap: 6rem;
+    /* column-gap: 6rem; */
     grid-template-columns: repeat(8, 1fr);
     justify-content: flex-start;
  
       width: 80vw;
   }
+  .controls>*:nth-child(1){
+    grid-column: 3/4;
+  }
   .controls>*:nth-child(2){
-    grid-column: 2/3;
+    grid-column: 5/6;
   }
   .controls>*:nth-child(3){
-    grid-column: 3/4;
+    grid-column:6/7;
   }
 
 
