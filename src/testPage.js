@@ -19,7 +19,6 @@ const TestPage = ({ next,
     candidate,
     showResults
   })=>{
-
  
     let showSubmit = submitButton ? <section
     className="controls"

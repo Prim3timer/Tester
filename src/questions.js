@@ -225,6 +225,12 @@ let quiz = [
       options: ["1", "2", "3", "4"],
       answer: "1"
     }
+    {
+      id: 36,
+      quiz: "The deepest lake in the world",
+      options: ["Victoria", "Volta", "Michigan", "Baikal"],
+      answer: "Baikal"
+    }
 
   ];
 
