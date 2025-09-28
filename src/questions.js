@@ -224,7 +224,7 @@ let quiz = [
       quiz: "How many countries have landed on the mooon",
       options: ["1", "2", "3", "4"],
       answer: "1"
-    }
+    },
     {
       id: 36,
       quiz: "The deepest lake in the world",
