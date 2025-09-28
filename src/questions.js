@@ -230,7 +230,7 @@ let quiz = [
       quiz: "The deepest lake in the world",
       options: ["Victoria", "Volta", "Michigan", "Baikal"],
       answer: "Baikal"
-    }
+    },
 
   ];
 
