@@ -63,7 +63,8 @@ for (let i = 0; i < quiz.length; i++){
             <FontAwesomeIcon icon={faCheck} style={{fontWeight: 'bold'}}/>
             {/* correct */}
             </td>
-         : <td style={{color: 'red',
+         : <td style={{
+            // color: 'red',
              fontSize: '1.6rem'
          }}>
                   <FontAwesomeIcon icon={faTimes} />
